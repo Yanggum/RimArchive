@@ -59,7 +59,8 @@ public class QuestNode_Root_Raid : QuestNode
             GenerateXPawnAndPassToWorld(escortReq, escort.count, escorter);
         }
         slate.Set("mapParent", map.Parent);
-        slate.Set("rewardStudied", Find.StudyManager.StudyComplete(reward));
+        Find.StudyManager.Study(ThingMaker.MakeThing(reward), boss, 1.0f);
+        //slate.Set("rewardStudied", Find.StudyManager.GetStudiableThingsAndPlatforms()
         slate.Set<Pawn>("escortees", boss);
         IntVec3 dropCenterDistant = DropCellFinder.FindRaidDropCenterDistant(map);
         IEnumerable<Pawn> everyone = escorter.Concat(boss);
@@ -98,7 +99,7 @@ public class QuestNode_Root_Raid : QuestNode
         //这里貌似需要和上边某个字符串对应
         //slate.Set<Pawn>("escortees",boss); -> "escortees.KilledLeavingsLeft" 之类的
         string inSignal4 = QuestGenUtility.HardcodedSignalWithQuestID("escortees.KilledLeavingsLeft");
-        quest.ThingStudied(reward, () => quest.Letter(LetterDefOf.PositiveEvent, text: "[bossDefeatedLetterText]", label: "[bossDefeatedLetterLabel]"), () => quest.Letter(LetterDefOf.PositiveEvent, text: "[bossDefeatedStudyChipLetterText]", label: "[bossDefeatedLetterLabel]"), inSignal4);
+        quest.ThingAnalyzed(reward, () => quest.Letter(LetterDefOf.PositiveEvent, text: "[bossDefeatedLetterText]", label: "[bossDefeatedLetterLabel]"), () => quest.Letter(LetterDefOf.PositiveEvent, text: "[bossDefeatedStudyChipLetterText]", label: "[bossDefeatedLetterLabel]"), inSignal4);
         quest.AnyPawnAlive(everyone, elseAction: () => QuestGen_End.End(quest, QuestEndOutcome.Unknown), inSignal: QuestGenUtility.HardcodedSignalWithQuestID("escortees.Killed"));
         quest.End(QuestEndOutcome.Unknown, inSignal: QuestGenUtility.HardcodedSignalWithQuestID("mapParent.Destroyed"));
 

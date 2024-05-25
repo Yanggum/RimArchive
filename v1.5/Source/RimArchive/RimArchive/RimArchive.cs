@@ -1,4 +1,5 @@
-﻿global using HarmonyLib;
+﻿global using UnityEngine;
+global using HarmonyLib;
 global using RimWorld;
 global using System.Collections.Generic;
 global using System.Linq;
@@ -7,7 +8,6 @@ using RimArchive.Abilities;
 using RimArchive.GameComponents;
 using RimArchive.Window;
 using System.Text.RegularExpressions;
-using UnityEngine;
 
 namespace RimArchive
 {

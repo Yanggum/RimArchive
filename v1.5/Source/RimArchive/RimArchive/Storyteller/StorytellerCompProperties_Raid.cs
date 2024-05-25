@@ -35,7 +35,8 @@ public class StorytellerComp_Raid : StorytellerComp
             foreach (var incident in ThreatsGenerator.MakeIntervalIncidents(parms, target, (target as Map)?.generationTick ?? 0))
             {
                 incident.source = this;
-                incident.parms.raidArrivalMode = PawnsArrivalModeDefOf.RandomDrop;
+                incident.parms.raidArrivalMode = PawnsArrivalModeDefOf.CenterDrop;
+
                 yield return incident;
             }
         }

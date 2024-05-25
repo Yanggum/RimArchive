@@ -47,8 +47,6 @@ namespace RimArchive
             {
                 yield return intVec2;
             }
-            List<IntVec2>.Enumerator enumerator = default(List<IntVec2>.Enumerator);
-            yield break;
             yield break;
 
         }

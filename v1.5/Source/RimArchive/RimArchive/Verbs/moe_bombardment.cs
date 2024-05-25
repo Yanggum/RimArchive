@@ -183,7 +183,7 @@ namespace RimArchive
                 }
             }
 
-            FireUtility.TryStartFireIn(intVec, base.Map, Rand.Range(0.1f, 0.925f));
+            FireUtility.TryStartFireIn(intVec, base.Map, Rand.Range(0.1f, 0.925f), this.instigator);
         }
 
         private void TryDoExplosion(BombardmentProjectile proj)
@@ -203,7 +203,7 @@ namespace RimArchive
             GenExplosion.DoExplosion(proj.targetCell, base.Map, explosionRadiusRange.RandomInRange, DamageDefOf.Bomb, instigator, -1, -1f, null, projectile: def, weapon: weaponDef);
         }
 
-        public override void Draw()
+/*        public override void Draw()
         {
             base.Draw();
             if (!projectiles.NullOrEmpty())
@@ -214,7 +214,7 @@ namespace RimArchive
                 }
             }
         }
-    }
+*/    }
     public class Verb_Bombardment : RimWorld.Verb_Bombardment
     {
         new public int DurationTicks = 600;

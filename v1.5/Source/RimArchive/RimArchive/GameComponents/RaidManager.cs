@@ -125,8 +125,9 @@ public class RaidManager : GameComponent
             return;
         //Log.Message($"Passed if statement : {bossForRaid == null}");
         this.killedBosses.Add(bossForRaid);
-        if (!this.highestDifficulty.TryAdd(CurrentRaid, difficultyComing.Value))
-            this.highestDifficulty[CurrentRaid] = Math.Max(difficultyComing.Value, this.highestDifficulty[CurrentRaid]);
+        this.highestDifficulty.Add(CurrentRaid, difficultyComing.Value);
+        //if (!this.highestDifficulty.Add(CurrentRaid, difficultyComing.Value))
+        //    this.highestDifficulty[CurrentRaid] = Math.Max(difficultyComing.Value, this.highestDifficulty[CurrentRaid]);
         difficultyComing = null;
     }
 
