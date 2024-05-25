@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- School Names-->
+  <Abydos>아비도스 고등학교</Abydos>
+  <Gehenna>게헤나 학원</Gehenna>
+  <Shanhaijing>산해경 고등학교</Shanhaijing>
+  <SRT>SRT 특수 학원</SRT>
+
+
+  <!-- Recruit Window-->
+  <HostileFail>{0}와(과) 적대 관계에 있어 거래할 수 없습니다</HostileFail>
+  <RAExchangeOpenOption>거래 시작</RAExchangeOpenOption>
+  <RAExchangeRoot>거래 화면</RAExchangeRoot>
+  <RAStudentRecruitMenu>학생 모집</RAStudentRecruitMenu>
+  <RABack>상위 메뉴로 돌아가기</RABack>
+  <StudentGacha>뽑기</StudentGacha>
+  <NotEnoughMoney>더 많은 수정 광물(1500 실버)이 필요합니다</NotEnoughMoney>
+  <StudentGachaRandom>랜덤 뽑기\n비용: {0} 실버</StudentGachaRandom>
+  <StudentGachaCertainSchool>학교를 선택하여 뽑기(미구현)\n비용: {0} 실버</StudentGachaCertainSchool>
+  <StudentArrived>{0}이(가) 도착했습니다.</StudentArrived>
+  <ChooseSchool>학교 선택</ChooseSchool>
+  <NoAvailableStudentInSchool>현재 이 학교에는 모집할 수 있는 학생이 없습니다.</NoAvailableStudentInSchool>
+
+  <StudentAlreadyRecruited>{0}은(는) 이미 모집되었습니다.</StudentAlreadyRecruited>
+
+  <!-- Misc -->
+  <StudentHeavilyInjuredAngry>{0}의 심각한 부상에 sensei가 매우 화가 났습니다. 그는 앞으로 {1} 일 동안 당신과 적대할 것입니다.</StudentHeavilyInjuredAngry>
+  <StudentHeavilyInjured>{0}의 심각한 부상</StudentHeavilyInjured>
+
+  <CurrentTotal>현재 총 피해: {0}s / 임계값: {1}s</CurrentTotal>
+  <ThresholdBroken>임계값을 초과했습니다</ThresholdBroken>
+
+  <Daysleft>총력전 남은 기간: {0}일</Daysleft>
+  <BossHPMultiplier>BOSS 체력 배수: {0}</BossHPMultiplier>
+  <Escortees>호위병:</Escortees>
+  <RaidIncoming>소환 불가: BOSS 전투가 종료되지 않았습니다</RaidIncoming>
+
+
+  <!-- Settings -->
+  <NeedSilverNearBeacon>모집에는 비콘이 필요합니다</NeedSilverNearBeacon>
+  <NeedSilverNearBeaconDesc>모집 시 비콘 유효 범위 내의 실버만 계산됩니다</NeedSilverNearBeaconDesc>
+</LanguageData>

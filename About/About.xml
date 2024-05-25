@@ -5,78 +5,79 @@
   <author>Auxia</author>
   <supportedVersions>
     <li>1.4</li>
+	<li>1.5</li>
   </supportedVersions>
   <packageId>Auxia.Weaponpack.BlueArchive</packageId>
   <description>
     Before All:This mod is now still in progress.Some contents are not actually installed in this mod.Current status does not represent the final quality.
-	须知:本模组仍在制作当中，部分内容暂未实装进模组中，目前状态不代表最终品质。
+	알림: 본 모드는 여전히 진행 중이며, 일부 콘텐츠는 아직 모드에 설치되지 않았습니다. 현재 상태는 최종 품질을 나타내지 않습니다.
 	
 	Waring:Data unblanced(yet).
-	警告：模组大量元素仍未做平衡处理。
+	경고: 모드의 많은 요소가 아직 균형 조정되지 않았습니다.
 	This mod includes serveral weapons from Blue Archive.
 	All the game textures are hand-painted.In the future,I will introduce more Blue Archive weapons and more interesting element into the games.Have fun.;)
 	
-	本模组包含了许多来自碧蓝档案的武器
-	模组中的所有贴图均是手绘，在未来，我会制作更多的碧蓝档案武器与有趣的元素;)
+	이 모드는 블루 아카이브의 여러 무기를 포함하고 있습니다.
+	모드의 모든 텍스처는 손으로 그린 것입니다. 앞으로 더 많은 블루 아카이브 무기와 흥미로운 요소를 게임에 추가할 예정입니다. 즐기세요.;)
 	Till 2023/1/17 Mod published
 	We got these students weapon:
-	目前已实装的学生武器：
+	현재 설치된 학생 무기:
 	Abydos:
-	Hoshino 星野
-	Serika 芹香
-	Shiroko 白子
+	Hoshino 호시노
+	Serika 세리카
+	Shiroko 시로코
 	
     Gehenna:
-	Hina 日奈
+	Hina 히나
 	
 	Hyakkiyako:
-	Izuna 泉奈
+	Izuna 이즈나
 	
 	Millennium:
-	Aris 爱丽丝
-	Hibiki 响
-	Karin 花凛
-	Midori 小绿
-	Momoi 桃井
-	Neru 尼禄
-	Yuzu 柚子
+	Aris 아리스
+	Hibiki 히비키
+	Karin 카린
+	Midori 미도리
+	Momoi 모모이
+	Neru 네루
+	Yuzu 유즈
 	
 	Trinity:
-	Hifumi 日富美
-	Koharu 小春
-	Tsurugi 鹤城
+	Hifumi 히후미
+	Koharu 고하루
+	Tsurugi 츠루기
 	（only weapon contained）
-	（以上学生仅包含武器）
+	（이상 학생은 무기만 포함）
 	QnA:
 	Q:Will there be more students weapons appear in this mod?
 	A:Sure.Most weapons will appear in the game,and the priority of pistols is low.
-	Q:未来会有更多学生的武器出现在模组中吗？
-	A：是的，大多数学生的武器都会陆陆续续地加入到模组中，并且手枪的优先度要低于其他武器。
+	Q: 앞으로 더 많은 학생 무기가 모드에 등장할까요?
+	A: 물론입니다. 대부분의 무기가 게임에 등장할 것이며, 권총의 우선 순위는 낮습니다.
 	
 	Q：CE？
 	A:Not yet.I'm not a CE player and i have no assistant（Im a new one）.I have to focus on weapons but I'm sure it will be soon.
-	Q：CE?
-	A：暂不支持，原因是我很少玩CE而且所有工作全由我一个人完成（我是新手）.我得将大多精力集中在制作有趣的武器上，但我相信很快它就会支持了！
+	Q: CE?
+	A: 아직 지원되지 않습니다. 저는 CE 플레이어가 아니며, 도와주는 사람도 없습니다（저는 초보자입니다）. 무기 제작에 집중해야 하지만, 곧 지원될 것이라고 확신합니다.
 	
 	Q:Will we got students apparel for our pawns?
 	A:Yes,But it takes a lot of time to paint beautiful textures.
-	Q：以后会有学生服饰加入当中吗？
-	A：是的，但是绘制且保证贴图质量需要大量时间。
+	Q: 앞으로 학생의 의상이 추가될까요?
+	A: 네, 하지만 아름다운 텍스처를 그리는 데 많은 시간이 필요합니다.
 	
 	Q:Many weapons data is imbalanced.Will this change?
 	A:Unfortunately,i am not a RimworldPro.Most data changes could depend on players feedback.Post ur advise in comment area,i will fix the unreasonable place and thx.:D
-	Q：很多武器的武器不是太强就是太弱，未来会改吗？
-	A：糟糕的是我玩Rimworld玩的比较懒，对数值这方面拿捏的不是很好，所以许多数值需要依赖玩家的反馈，把改动建议发在讨论区，感谢所有提供建议的好兄弟！
+	Q: 많은 무기가 너무 강하거나 너무 약합니다. 나중에 변경될까요?
+	A: 제가 Rimworld 전문가가 아니라서 안타깝습니다. 대부분의 데이터 변경은 플레이어의 피드백에 따라 달라질 수 있습니다. 댓글란에 조언을 남겨주시면, 비합리적인 부분을 수정하겠습니다. 감사합니다. :D
 	
 	Q:Any place required attention?
 	A:This mod support Chinese language only(so far).The English support should be coming soon.
-	Q：还有什么其它需要注意的吗？
-	A：玩的开心;)
+	Q: 기타 주의사항이 있나요?
+	A: 즐겁게 플레이하세요. :）
 	
-	写在最后：本模组未来可能会发展为综合性拓展包，这个模组是娱乐向的，所以有些武器可能会不适合某些游戏环境。
-	我会尽可能地将这个模组完善并做好。国内的碧蓝档案爱好者想要提建议的话可以百度贴吧：@普通的机车族战士。
+	마지막으로: 이 모드는 종합적인 확장팩으로 발전할 수 있습니다. 이 모드는 오락을 목적으로 하므로, 일부 무기는 특정 게임 환경에 적합하지 않을 수 있습니다.
+	최대한 이 모드를 완성하고 잘 만들겠습니다. 국내 블루 아카이브 팬들이 제안을 하고 싶다면, Baidu Tieba에서 찾아주세요: @普通的机车族战士.
 	
-	干杯！
+	건배!
 	Cheers！
   </description>
   <modDependencies>
