@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <DamageDef Name="BA_DebuffDamageBase" Abstract="True">
+        <harmsHealth>false</harmsHealth>
+        <makesBlood>false</makesBlood>
+    </DamageDef>
+
+    <DamageDef ParentName="BA_DebuffDamageBase">
+        <defName>ArmorReduction</defName>
+        <workerClass>DamageWorker_AddGlobal</workerClass>
+        <hediff>BA_ArmorReduction</hediff>
+        <canInterruptJobs>true</canInterruptJobs>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} shocked to death.</deathMessage>
+		<defaultDamage>0</defaultDamage>
+		<defaultStoppingPower>0</defaultStoppingPower>
+		<defaultArmorPenetration>0.0</defaultArmorPenetration>
+		<buildingDamageFactor>0</buildingDamageFactor>
+    </DamageDef>
+
+    <DamageDef Name="BA_DoTDamageBase" Abstract="True">
+        <workerClass>RimArchive.Abilities.DamageWorker_AddHediffWithInstigator</workerClass>
+        <!-- <hediff>RA_Hediff_IntulitMortem</hediff> -->
+        <canInterruptJobs>true</canInterruptJobs>
+		<!-- <deathMessage>{0} shocked to death.</deathMessage> -->
+		<externalViolence>true</externalViolence>
+        <armorCategory>Heat</armorCategory>
+		<defaultDamage>0.5</defaultDamage>
+		<defaultStoppingPower>0</defaultStoppingPower>
+		<defaultArmorPenetration>99999</defaultArmorPenetration>
+		<buildingDamageFactor>0</buildingDamageFactor>
+    </DamageDef>
+    
+    <DamageDef ParentName="BA_DoTDamageBase">
+        <defName>IntulitMortem</defName>
+        <hediff>RA_Hediff_IntulitMortem</hediff>
+		<deathMessage>{0} shocked to death.</deathMessage>
+		<defaultDamage>0.5</defaultDamage>
+    </DamageDef>
+
+    
+</Defs>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <XenotypeDef>
+        <defName>Kivotosian</defName>
+        <label>基沃托斯人</label>
+        <description>边缘世界没人知道这学生们的神秘力量从何而来。</description>
+        <iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+        <factionlessGenerationWeight>0</factionlessGenerationWeight>
+        <inheritable>true</inheritable>
+        <nameMaker>NamerNormalStudents</nameMaker>
+        <genes>
+            <li>Body_Thin</li>
+            <li>Skin_SheerWhite</li>
+            <li>Hair_SnowWhite</li>
+        </genes>
+    </XenotypeDef>
+
+    <XenotypeDef>
+        <defName>RA_XenotypeDef_Sensei</defName>
+        <label>先生</label>
+        <description>Lorem Ipsum</description>
+        <iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+        <factionlessGenerationWeight>0</factionlessGenerationWeight>
+        <inheritable>true</inheritable>
+        <genes>
+            <li>Hair_BaldOnly</li>
+            <li>Beard_NoBeardOnly</li>
+            <li>Skin_SheerWhite</li>
+        </genes>
+    </XenotypeDef>
+</Defs>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchTabDef>
+		<defName>RimArchiveTech</defName>
+		<label>边缘档案</label>
+	</ResearchTabDef>
+
+	<ResearchProjectDef Name = "BA_ResearchProjectBase" Abstract = "True">
+		<tab>RimArchiveTech</tab>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName = "BA_ResearchProjectBase">
+		<defName>BA_Weapon_Abydos</defName>
+		<label>阿拜多斯高等学校</label>
+		<description>现在你可以制作来自阿拜多斯高等学校的武器了</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>PrecisionRifling</li>
+		</prerequisites>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName = "BA_ResearchProjectBase">
+		<defName>BA_Weapon_Gehenna</defName>
+		<label>格黑娜学园</label>
+		<description>现在你可以制作来自格黑娜学园的武器了</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>PrecisionRifling</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName = "BA_ResearchProjectBase">
+		<defName>BA_Weapon_Hyakkiyako</defName>
+		<label>百鬼夜行联合学园</label>
+		<description>现在你可以制作来自百鬼夜行联合学园的武器了</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>PrecisionRifling</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName = "BA_ResearchProjectBase">
+		<defName>BA_Weapon_Millennium</defName>
+		<label>千年科学学园</label>
+		<description>现在你可以制作来自千年科学学园的武器了</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>PrecisionRifling</li>
+		</prerequisites>
+		<researchViewX>0</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName = "BA_ResearchProjectBase">
+		<defName>BA_Weapon_Trinity</defName>
+		<label>三一综合学园</label>
+		<description>现在你可以制作来自三一综合学园的武器了</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>PrecisionRifling</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName = "BA_ResearchProjectBase">
+		<defName>BA_Weapon_SRT</defName>
+		<label>SRT特殊学园</label>
+		<description>现在你可以制作来自SRT特殊学园的武器了</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>PrecisionRifling</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>2</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName = "BA_ResearchProjectBase">
+		<defName>BA_Weapon_Shanhaijing</defName>
+		<label>山海经高级中学</label>
+		<description>现在你可以制作来自山海经高级中学的武器了</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>PrecisionRifling</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName = "BA_ResearchProjectBase">
+		<defName>BA_Weapon_Redwinter</defName>
+		<label>赤冬联邦中学</label>
+		<description>现在你可以制作来自赤冬联邦中学的武器了</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>PrecisionRifling</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>2</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName = "BA_ResearchProjectBase">
+		<defName>BA_Weapon_Arius</defName>
+		<label>阿里乌斯分校</label>
+		<description>现在你可以制作来自阿里乌斯分校的武器了</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>PrecisionRifling</li>
+		</prerequisites>
+		<researchViewX>0</researchViewX>
+		<researchViewY>2</researchViewY>
+	</ResearchProjectDef>
+
+	<!--
+	<ResearchProjectDef ParentName = "BA_ResearchProjectBase">
+		<defName>BA_Equipments_Tier1</defName>
+		<label>Equipment (Tier 1~3)</label>
+		<description>Unlocks recipes for crafting Tier 1 ~ Tier 3 equipment.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<requiredStudied>
+			<li>BA_Chip_Chesed</li>
+		</requiredStudied>
+		<researchViewX>0</researchViewX>
+		<researchViewY>3</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName = "BA_ResearchProjectBase">
+		<defName>BA_Equipments_Tier2</defName>
+		<label>Equipment (Tier 4~6)</label>
+		<description>Unlocks recipes for crafting Tier 4 ~ Tier 6 equipment.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<requiredStudied>
+			<li>BA_Chip_HOD</li>
+		</requiredStudied>
+		<researchViewX>1</researchViewX>
+		<researchViewY>3</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName = "BA_ResearchProjectBase">
+		<defName>BA_Equipments_Tier3</defName>
+		<label>Equipment (Tier 7)</label>
+		<description>Unlocks recipes for crafting Tier 7 equipment.</description>
+		<baseCost>1500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<requiredStudied>
+			<li>BA_Chip_Goz</li>
+		</requiredStudied>
+		<researchViewX>2</researchViewX>
+		<researchViewY>3</researchViewY>
+	</ResearchProjectDef>-->
+
+	<ResearchProjectDef ParentName = "BA_ResearchProjectBase">
+		<defName>BA_Tech_ShittimChest</defName>
+		<label>边缘档案：什亭之匣</label>
+		<description>学习制作什亭之匣的方法，以便在边缘世界上与夏莱建立联系。</description>
+		<baseCost>750</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>Electricity</li>
+		</prerequisites>
+		<researchViewX>0</researchViewX>
+		<researchViewY>5</researchViewY>
+	</ResearchProjectDef>
+
+
+</Defs>

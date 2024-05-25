@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!--万事屋68学生背景故事-->
+	<!--春香-->
+	<AlienRace.AlienBackstoryDef ParentName="BAW_Backstory">
+		<defName>Backstory_Haruka</defName>
+		<title>伊草 遥香</title>
+		<titleShort>遥香</titleShort>
+		<baseDesc>便利屋68的正式职员。</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>RimArchive_Haruka</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	
+	
+
+
+</Defs>

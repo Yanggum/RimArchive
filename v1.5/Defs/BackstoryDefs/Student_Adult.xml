@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>KivotosStudent</defName>
+		<title>基沃托斯的学生</title>
+		<titleShort>学生</titleShort>
+		<baseDesc>[PAWN_nameDef]是基沃托斯生人。</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>RimArchive_Backstory</li>
+			<li>RimArchive_Adult</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+
+</Defs>

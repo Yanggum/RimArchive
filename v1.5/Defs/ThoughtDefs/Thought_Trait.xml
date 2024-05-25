@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <ThoughtDef>
+        <defName>RA_Hatred</defName>
+        <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+        <validWhileDespawned>true</validWhileDespawned>
+        <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+        <requiredTraits>
+            <li>BA_Trait_Arius</li>
+        </requiredTraits>
+        <stages>
+            <li>
+                <label>万物皆虚</label>
+                <description>虚空的虚空，虚空的虚空，凡事都是虚空。
+                    ----《传道书1:2》</description>
+                <baseMoodEffect>-8</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+</Defs>

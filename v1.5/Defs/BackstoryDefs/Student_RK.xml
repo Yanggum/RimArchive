@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!--救援骑士团学生背景故事-->
+	<!--芹娜-->
+	<AlienRace.AlienBackstoryDef ParentName="BAW_Backstory">
+		<defName>Backstory_Serina</defName>
+		<title>鹫见 芹娜</title>
+		<titleShort>芹娜</titleShort>
+		<baseDesc>隶属三一救护骑士团的善良少女。</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>RimArchive_Serina</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	
+
+	
+	
+	
+
+
+</Defs>
