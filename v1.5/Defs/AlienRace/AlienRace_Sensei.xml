@@ -128,18 +128,18 @@
 			<Mass>50</Mass>
 			<MoveSpeed>4.50</MoveSpeed>
 			<Flammability>0.6</Flammability>
-			<ComfyTemperatureMax>5000</ComfyTemperatureMax>
-			<ComfyTemperatureMin>-3000</ComfyTemperatureMin>
-			<ImmunityGainSpeed>10.30</ImmunityGainSpeed>
-			<CarryingCapacity>1000</CarryingCapacity>
+			<ComfyTemperatureMax>50</ComfyTemperatureMax>
+			<ComfyTemperatureMin>-30</ComfyTemperatureMin>
+			<ImmunityGainSpeed>1.30</ImmunityGainSpeed>
+			<CarryingCapacity>60</CarryingCapacity>
 			<PainShockThreshold>0.55</PainShockThreshold>
 			<ToxicResistance>1.0</ToxicResistance>
 			<MeatAmount>150</MeatAmount>
 			<LeatherAmount>45</LeatherAmount>
 			<AimingDelayFactor>0.9</AimingDelayFactor>
-			<PlantWorkSpeed>100.1</PlantWorkSpeed>
-			<ConstructionSpeed>100.15</ConstructionSpeed>
-			<ResearchSpeed>100.0</ResearchSpeed>
+			<PlantWorkSpeed>1.1</PlantWorkSpeed>
+			<ConstructionSpeed>1.15</ConstructionSpeed>
+			<ResearchSpeed>1.0</ResearchSpeed>
 		</statBases>
 
 		<recipes>
