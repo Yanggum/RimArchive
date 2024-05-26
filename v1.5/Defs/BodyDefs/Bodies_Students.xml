@@ -261,9 +261,7 @@
 				</li>
 				<li>
 					<def>Leg</def>
-					<customLabel>왼쪽 다리</custom
-
-Label>
+					<customLabel>왼쪽 다리</customLabel>
 					<coverage>0.14</coverage>
 					<height>Bottom</height>
 					<groups>

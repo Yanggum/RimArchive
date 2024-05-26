@@ -1,25 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
 	<AlienRace.AlienBackstoryDef Abstract="True" Name="BAW_Backstory">
 		<spawnCategories>
 			<li>RimArchive_Child</li>
 		</spawnCategories>
 	    <skillGains>
-			<li>
-				<key>Shooting</key>
-				<value>5</value>
-			</li>
+			<Shooting>5</Shooting>
 		</skillGains>
-		<forcedTraitsChance>
-			<li>
-				<defName>Beauty</defName>
-				<degree>2</degree>
-			</li>
-		</forcedTraitsChance>
-		<disallowedTraitsChance/>
+		<forcedTraits>
+		<Beauty>2</Beauty>
+		</forcedTraits>
+		<disallowedTraits>
+			<!-- 예시: -->
+			<!-- <li>
+				<defName>Pyromaniac</defName>
+			</li> -->
+		</disallowedTraits>
 		<femaleCommonality>100</femaleCommonality>
-		<forcedHediffs/>
+		<forcedHediffs>
+			<!-- 예시: -->
+			<!-- <li>
+				<defName>Asthma</defName>
+				<severity>0.5</severity>
+			</li> -->
+		</forcedHediffs>
 		<bioAgeRange>
 			<min>10</min>
 			<max>18</max>
@@ -29,9 +33,4 @@
 			<max>18</max>
 		</chronoAgeRange>
 	</AlienRace.AlienBackstoryDef>
-	
-	
-	
-
-
 </Defs>

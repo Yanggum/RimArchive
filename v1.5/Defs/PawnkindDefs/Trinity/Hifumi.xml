@@ -71,7 +71,7 @@
 			<Intellectual>
 				<level>3</level>
 				<fireLevel>1</fireLevel>
-			<Intellectual>
+			</Intellectual>
 			<Medicine>
 				<level>2</level>
 				<fireLevel>0</fireLevel>
@@ -91,7 +91,7 @@
 			<Shooting>
 				<level>8</level>
 				<fireLevel>1</fireLevel>
-			<Shooting>
+			</Shooting>
 			<Social>
 				<level>8</level>
 				<fireLevel>0</fireLevel>

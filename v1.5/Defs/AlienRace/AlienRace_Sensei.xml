@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<AlienRace.ThingDef_AlienRace ParentName="HumanRace">
+	<AlienRace.ThingDef_AlienRace ParentName="Human">
 		<defName>RA_Race_Sensei</defName>
 		<label>선생님</label>
 		<description>Lorem Ipsum</description>
@@ -49,7 +49,7 @@
 			</raceRestriction>
 		</alienRace>
 		<!-- 손에 무기를 쥐지 못함 -->
-		<tools>
+		<!-- <tools>
 			<li>
 				<label>왼손</label>
 				<capacities>
@@ -84,7 +84,7 @@
 					</extraMeleeDamages>
 				</surpriseAttack>
 			</li>
-		</tools>
+		</tools> -->
 
 		<race>
 			<thinkTreeMain>Humanlike</thinkTreeMain>
@@ -128,18 +128,18 @@
 			<Mass>50</Mass>
 			<MoveSpeed>4.50</MoveSpeed>
 			<Flammability>0.6</Flammability>
-			<ComfyTemperatureMax>50</ComfyTemperatureMax>
-			<ComfyTemperatureMin>-30</ComfyTemperatureMin>
-			<ImmunityGainSpeed>1.30</ImmunityGainSpeed>
-			<CarryingCapacity>60</CarryingCapacity>
+			<ComfyTemperatureMax>5000</ComfyTemperatureMax>
+			<ComfyTemperatureMin>-3000</ComfyTemperatureMin>
+			<ImmunityGainSpeed>10.30</ImmunityGainSpeed>
+			<CarryingCapacity>1000</CarryingCapacity>
 			<PainShockThreshold>0.55</PainShockThreshold>
 			<ToxicResistance>1.0</ToxicResistance>
 			<MeatAmount>150</MeatAmount>
 			<LeatherAmount>45</LeatherAmount>
 			<AimingDelayFactor>0.9</AimingDelayFactor>
-			<PlantWorkSpeed>1.1</PlantWorkSpeed>
-			<ConstructionSpeed>1.15</ConstructionSpeed>
-			<ResearchSpeed>1.0</ResearchSpeed>
+			<PlantWorkSpeed>100.1</PlantWorkSpeed>
+			<ConstructionSpeed>100.15</ConstructionSpeed>
+			<ResearchSpeed>100.0</ResearchSpeed>
 		</statBases>
 
 		<recipes>

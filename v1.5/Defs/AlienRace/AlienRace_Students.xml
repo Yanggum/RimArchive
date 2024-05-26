@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
 	<AlienRace.ThingDef_AlienRace ParentName="StudentThingBase">
 		<defName>KivotosStudent</defName>
-		<label>키보토스 사람</label>
+		<label>키보토스 학생</label>
 		<description>[PlaceHolder]</description>
 		<alienRace>
 			<graphicPaths>
@@ -13,14 +12,13 @@
 			</graphicPaths>
 			<generalSettings>
 				<alienPartGenerator>
-					<customDrawSize>(1, 1)</customDrawSize>					<!--캐릭터 전체 크기-->
+					<customDrawSize>(1, 1)</customDrawSize>
+					<!--캐릭터 전체 크기-->
 					<bodyAddons>
 						<!--헤일로-->
 						<li>
 							<path>Pawns/General/Invisible/Inv</path>
-							<bodyPart>Halo</bodyPart>
-							<drawnInBed>false</drawnInBed>							<!--잠잘 때 헤일로 표시 안 함-->
-							<drawnDesiccated>false</drawnDesiccated>
+							
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
 							<offsets>
 								<north>
@@ -44,8 +42,8 @@
 								<Backstory_Haruka>Pawns/Gehenna/Haruka/Halo/Haruka</Backstory_Haruka>
 								<Backstory_Noa>Pawns/Millennium/Noa/Halo/Noa</Backstory_Noa>
 								<Backstory_Rio>Pawns/Millennium/Rio/Halo/Rio</Backstory_Rio>
-							    <Backstory_Hanako>Pawns/Trinity/Hanako/Halo/Hanako</Backstory_Hanako>
-						        <Backstory_Serina>Pawns/Trinity/Serina/Halo/Serina</Backstory_Serina>
+								<Backstory_Hanako>Pawns/Trinity/Hanako/Halo/Hanako</Backstory_Hanako>
+								<Backstory_Serina>Pawns/Trinity/Serina/Halo/Serina</Backstory_Serina>
 								<Backstory_Hina>Pawns/Gehenna/Hina/Halo/Hina</Backstory_Hina>
 								<Backstory_Iori>Pawns/Gehenna/Iori/Halo/Iori</Backstory_Iori>
 							</backstoryGraphics>
@@ -54,7 +52,7 @@
 						<li>
 							<path>Pawns/General/Invisible/Inv</path>
 							<inFrontOfBody>true</inFrontOfBody>
-							<drawnDesiccated>false</drawnDesiccated>
+							
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
 							<offsets>
 								<north>
@@ -85,10 +83,10 @@
 							</backstoryGraphics>
 						</li>
 						<!--앞머리-->
-						<li>							
+						<li>
 							<path>Pawns/General/Invisible/Inv</path>
 							<inFrontOfBody>true</inFrontOfBody>
-							<drawnDesiccated>false</drawnDesiccated>
+							
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
 							<offsets>
 								<north>
@@ -112,16 +110,16 @@
 								<Backstory_Haruka>Pawns/Gehenna/Haruka/Hair/Haruka</Backstory_Haruka>
 								<Backstory_Noa>Pawns/Millennium/Noa/Hair/Noa</Backstory_Noa>
 								<Backstory_Rio>Pawns/Millennium/Rio/Hair/Rio</Backstory_Rio>
-							    <Backstory_Hanako>Pawns/Trinity/Hanako/Hair/Hanako</Backstory_Hanako>
+								<Backstory_Hanako>Pawns/Trinity/Hanako/Hair/Hanako</Backstory_Hanako>
 								<Backstory_Serina>Pawns/Trinity/Serina/Hair/Serina</Backstory_Serina>
 								<Backstory_Hina>Pawns/Gehenna/Hina/Hair/Hina</Backstory_Hina>
 								<Backstory_Iori>Pawns/Gehenna/Iori/Hair/Iori</Backstory_Iori>
 							</backstoryGraphics>
 						</li>
 						<!--뒷머리-->
-						<li>							
+						<li>
 							<path>Pawns/General/Invisible/Inv</path>
-							<drawnDesiccated>false</drawnDesiccated>
+							
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
 							<offsets>
 								<north>
@@ -136,7 +134,6 @@
 									<layerOffset>-0.28</layerOffset>
 									<offset>(0,0)</offset>
 								</east>
-
 							</offsets>
 							<backstoryGraphics>
 								<Backstory_Yuuka>Pawns/Millennium/Yuuka/Hair/uka</Backstory_Yuuka>
@@ -144,37 +141,14 @@
 								<Backstory_Koharu>Pawns/Trinity/Koharu/Hair/Koharu</Backstory_Koharu>
 								<Backstory_Azusa>Pawns/Trinity/Azusa/Hair/Azusa</Backstory_Azusa>
 								<Backstory_Haruka>Pawns/Gehenna/Haruka/Hair/Haruka</Backstory_Haruka>
-								<Backstory_Noa>Pawns/Millennium/Noa/Hair/
-
-Noa</Backstory_Noa>
+								<Backstory_Noa>Pawns/Millennium/Noa/Hair/Noa</Backstory_Noa>
 								<Backstory_Rio>Pawns/Millennium/Rio/Hair/Rio</Backstory_Rio>
-							    <Backstory_Hanako>Pawns/Trinity/Hanako/Hair/Hanako</Backstory_Hanako>
-							    <Backstory_Serina>Pawns/Trinity/Serina/Hair/Serina</Backstory_Serina>
+								<Backstory_Hanako>Pawns/Trinity/Hanako/Hair/Hanako</Backstory_Hanako>
+								<Backstory_Serina>Pawns/Trinity/Serina/Hair/Serina</Backstory_Serina>
 								<Backstory_Hina>Pawns/Gehenna/Hina/Hair/Hina</Backstory_Hina>
 								<Backstory_Iori>Pawns/Gehenna/Iori/Hair/Iori</Backstory_Iori>
 							</backstoryGraphics>
 						</li>
-						<!-- 여기서부터는 장비 헤디프(hediff) 부분으로, 현재는 총 이미지 수가 너무 많아 폐지됨 -->
-						<!-- <li>
-							<path>Things/Equipment/Badge_Tier1</path>
-							<drawnInBed>false</drawnInBed>
-							<drawnDesiccated>false</drawnDesiccated>
-							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
-							<inFrontOfBody>true</inFrontOfBody>
-							<hediffGraphics>
-								<BA_Hediff_Badge>
-									<path>Things/Equipment/Badge_Tier1</path>
-									<severity>
-										<a2.0>Things/Equipment/Badge_Tier2</path>
-										<a3.0>Things/Equipment/Badge_Tier3</path>
-										<a4.0>Things/Equipment/Badge_Tier4</path>
-										<a5.0>Things/Equipment/Badge_Tier5</path>
-										<a6.0>Things/Equipment/Badge_Tier6</path>
-										<a7.0>Things/Equipment/Badge_Tier7</path>
-									</severity>
-								</BA_Hediff_Badge>
-							</hediffGraphics>
-						</li> -->
 					</bodyAddons>
 				</alienPartGenerator>
 			</generalSettings>

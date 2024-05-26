@@ -617,10 +617,7 @@
           <PawnBeauty>1</PawnBeauty> <!--俊俏-->
         </statOffsets>
         <skillGains>
-          <li>
-            <key>Cooking</key>
-            <value>4</value>
-          </li>
+          <Cooking>4</Cooking>
         </skillGains>
         <hungerRateFactor>1.2</hungerRateFactor>
       </li>
