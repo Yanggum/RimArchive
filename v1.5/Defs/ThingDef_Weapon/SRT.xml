@@ -316,7 +316,7 @@
 		<recipeMaker>
 			<researchPrerequisite>BA_Weapon_SRT</researchPrerequisite>
 			<skillRequirements>
-				Crafting>6</Crafting>
+				<Crafting>6</Crafting>
 			</skillRequirements>
 			<displayPriority>400</displayPriority>
 		</recipeMaker>
