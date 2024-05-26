@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<!--补课部学生背景故事-->
-	<!--梓-->
+	<!--보충수업부 학생 배경 이야기-->
+	<!--아즈사-->
 	<AlienRace.AlienBackstoryDef ParentName="BAW_Backstory">
 		<defName>Backstory_Azusa</defName>
-		<title>白洲 梓</title>
-		<titleShort>梓</titleShort>
-		<baseDesc>三一补课部的冰魔女。</baseDesc>
+		<title>시라스 아즈사</title>
+		<titleShort>아즈사</titleShort>
+		<baseDesc>트리니티 보충수업부의 얼음 마녀.</baseDesc>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<slot>Childhood</slot>
 		<spawnCategories>
@@ -14,12 +14,12 @@
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 
-	<!--小春-->
+	<!--코하루-->
 	<AlienRace.AlienBackstoryDef ParentName="BAW_Backstory">
 		<defName>Backstory_Koharu</defName>
-		<title>下江 小春</title>
-		<titleShort>小春</titleShort>
-		<baseDesc>三一补课部的一员。</baseDesc>
+		<title>시모에 코하루</title>
+		<titleShort>코하루</titleShort>
+		<baseDesc>트리니티 보충수업부의 일원.</baseDesc>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<slot>Childhood</slot>
 		<spawnCategories>
@@ -27,12 +27,12 @@
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 
-	<!--日富美-->
+	<!--히후미-->
 	<AlienRace.AlienBackstoryDef ParentName="BAW_Backstory">
 		<defName>Backstory_Hifumi</defName>
-		<title>阿慈谷 日富美</title>
-		<titleShort>日富美</titleShort>
-		<baseDesc>三一补课部的感情丰富的少女。</baseDesc>
+		<title>아지타니 히후미</title>
+		<titleShort>히후미</titleShort>
+		<baseDesc>트리니티 보충수업부의 감정이 풍부한 소녀.</baseDesc>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<slot>Childhood</slot>
 		<spawnCategories>
@@ -40,22 +40,16 @@
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 
-	<!--花子-->
+	<!--하나코-->
 	<AlienRace.AlienBackstoryDef ParentName="BAW_Backstory">
 		<defName>Backstory_Hanako</defName>
-		<title>浦和 花子</title>
-		<titleShort>花子</titleShort>
-		<baseDesc>补课部的感情丰富的少女。</baseDesc>
+		<title>우라와 하나코</title>
+		<titleShort>하나코</titleShort>
+		<baseDesc>보충수업부의 감정이 풍부한 소녀.</baseDesc>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<slot>Childhood</slot>
 		<spawnCategories>
 			<li>RimArchive_Hanako</li>
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
-
-	
-	
-	
-
-
 </Defs>

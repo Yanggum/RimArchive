@@ -3,19 +3,19 @@
 
 	<ThingCategoryDef>
 		<defName>BA_root</defName>
-		<label>边缘档案</label>
+		<label>아카이브 변경</label>
 		<parent>Items</parent>
 	</ThingCategoryDef>
 
 	<ThingCategoryDef>
 		<defName>BA_HediffEquipment</defName>
-		<label>装备</label>
+		<label>장비</label>
 		<parent>BA_root</parent>
 	</ThingCategoryDef>
 
 	<ThingCategoryDef>
 		<defName>BA_Weapon</defName>
-		<label>武器</label>
+		<label>무기</label>
 		<parent>BA_root</parent>
 	</ThingCategoryDef>
 </Defs>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-    <!-- 测试用 -->
+    <!-- 테스트용 -->
     <GeneDef>
         <defName>DamageReduction</defName>
-        <label>学生</label>
-        <labelShortAdj>学生</labelShortAdj>
-        <description>学生的神秘力量。她们受到的伤害更低。</description>
+        <label>학생</label>
+        <labelShortAdj>학생</labelShortAdj>
+        <description>학생들의 신비한 힘. 그녀들은 받는 피해가 더 적습니다.</description>
         <iconPath>UI/Icons/Genes/Gene_FireWeakness</iconPath>
         <displayCategory>ResistanceAndWeakness</displayCategory>
         <displayOrderInCategory>90</displayOrderInCategory>
@@ -16,13 +16,13 @@
         <symbolPack>
             <prefixSymbols>
                 <li>
-                    <symbol>学</symbol>
+                    <symbol>학</symbol>
                 </li>
                 <li>
-                    <symbol>基沃托斯</symbol>
+                    <symbol>키보토스</symbol>
                 </li>
                 <li>
-                    <symbol>神秘</symbol>
+                    <symbol>신비</symbol>
                 </li>
             </prefixSymbols>
         </symbolPack>
@@ -30,9 +30,9 @@
 
     <GeneDef>
         <defName>DamageReduction_IncomingDamageFactor</defName>
-        <label>学生</label>
-        <labelShortAdj>学生</labelShortAdj>
-        <description>学生的神秘力量。她们受到的伤害更低。</description>
+        <label>학생</label>
+        <labelShortAdj>학생</labelShortAdj>
+        <description>학생들의 신비한 힘. 그녀들은 받는 피해가 더 적습니다.</description>
         <iconPath>UI/Icons/Genes/Gene_FireWeakness</iconPath>
         <displayCategory>ResistanceAndWeakness</displayCategory>
         <displayOrderInCategory>90</displayOrderInCategory>
@@ -43,13 +43,13 @@
         <symbolPack>
             <prefixSymbols>
                 <li>
-                    <symbol>学</symbol>
+                    <symbol>학</symbol>
                 </li>
                 <li>
-                    <symbol>基沃托斯</symbol>
+                    <symbol>키보토스</symbol>
                 </li>
                 <li>
-                    <symbol>神秘</symbol>
+                    <symbol>신비</symbol>
                 </li>
             </prefixSymbols>
         </symbolPack>

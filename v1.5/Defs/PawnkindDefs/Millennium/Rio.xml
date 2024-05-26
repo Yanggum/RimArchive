@@ -3,11 +3,11 @@
 
 	<RimArchive.StudentDef ParentName="RA_BasePawn">
 		<defName>BA_Rio</defName>
-		<label>莉音</label>
+		<label>리오</label>
 		<race>KivotosStudent</race>
-		<description>ミレニアムサイエンススクール所属、生徒会「セミナー」の議長。
+		<description>밀레니엄 과학 학교 소속, 학생회 "세미나"의 의장.
 
-			ミレニアムサイエンススクールの重鎮として、リオは常に多くの事務を果敢かつ効率的に処理しており、同じ「セミナー」のメンバーであるユウカやノアとは異なり、リオの印象は独りぼっちの黒幕であることが多い。リオにとって、あらゆる代価を払って目標を達成することは彼女の処遇原則だ。</description>
+			밀레니엄 과학 학교의 중추로서, 리오는 항상 많은 업무를 과감하고 효율적으로 처리하고 있으며, 같은 "세미나"의 멤버인 유우카와 노아와는 달리, 리오는 종종 외톨이 음모자로 인식됩니다. 리오에게 있어 목표를 달성하기 위해 어떤 대가를 치르든지 그것이 그녀의 원칙입니다.</description>
 		<nameMaker>NamerRio</nameMaker>
 		<defaultFactionType>PlayerColony</defaultFactionType>
 		<initialResistanceRange>10~11</initialResistanceRange>
@@ -35,8 +35,8 @@
 		</apparelRequired>
 		<forcedHair>Bald</forcedHair>
 
-		<!-- Until here is inherited from PawnKindDef -->
-		<!-- Below is new field added in StudentDef-->
+		<!-- 여기까지는 PawnKindDef에서 상속 -->
+		<!-- 아래는 StudentDef에 새로 추가된 필드 -->
 		<name>
 			<first>Rio</first>
 			<nick>Rio</nick>

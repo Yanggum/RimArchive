@@ -32,7 +32,7 @@
     </comps>
     <tools>
       <li>
-        <label>枪托</label>
+        <label>Gun Butt</label>
         <capacities>
           <li>Blunt</li>
         </capacities>
@@ -40,7 +40,7 @@
         <cooldownTime>2</cooldownTime>
       </li>
       <li>
-        <label>枪管</label>
+        <label>Gun Barrel</label>
         <capacities>
           <li>Blunt</li>
           <li>Poke</li>
@@ -104,7 +104,7 @@
     </comps>
   </ThingDef>
 
-  <!--无质量-->
+  <!-- Without Quality -->
   <ThingDef Name="BAW_BaseMakeableGunWithNoQuality" ParentName="BAW_BaseGun" Abstract="True">
     <recipeMaker>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -118,14 +118,5 @@
       <researchPrerequisite>Gunsmithing</researchPrerequisite>
     </recipeMaker>
   </ThingDef>
-
-
-
-
-
-
-
-
-
 
 </Defs>

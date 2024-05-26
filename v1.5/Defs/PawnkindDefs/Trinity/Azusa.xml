@@ -3,14 +3,14 @@
 
 	<RimArchive.StudentDef ParentName="RA_BasePawn">
 		<defName>BA_Azusa</defName>
-		<label>梓</label>
+		<label>아즈사</label>
 		<race>KivotosStudent</race>
-		<description>トリニティ総合学園所属、補習授業部の氷の魔女。
+		<description>트리니티 종합 학원 소속, 보충 수업부의 얼음 마녀.
 
-			本来はある学校を中退した身だったが、諸事情でトリニティへと通うことになり、再び学業に勤しんでいる。性根は寂しがり屋だが、他の人に迷惑をかけることを恐れて自発的に距離を置いており、補習授業部の他の生徒たちから心配されている。
+			원래는 다른 학교를 중퇴한 신세였으나, 여러 가지 이유로 트리니티에 다니게 되어 다시 학업에 전념하고 있습니다. 본성은 외로움을 타지만, 다른 사람에게 폐를 끼치는 것을 두려워해 자발적으로 거리를 두고 있으며, 보충 수업부의 다른 학생들이 걱정하고 있습니다.
 			
-			"&lt;i&gt;全てのものは空しく、生に意味はない
-			だけど、信じたくなる……あなたの言葉を&lt;/i&gt;"</description>
+			"&lt;i&gt;모든 것은 허무하며, 삶에는 의미가 없다
+			하지만 믿고 싶어진다…… 당신의 말을&lt;/i&gt;"</description>
 		<nameMaker>NamerNormalStudents</nameMaker>
 		<defaultFactionType>PlayerColony</defaultFactionType>
 		<initialResistanceRange>10~11</initialResistanceRange>
@@ -38,8 +38,8 @@
 		</apparelRequired>
 		<forcedHair>Bald</forcedHair>
 
-		<!-- Until here is inherited from PawnKindDef -->
-		<!-- Below is new field added in StudentDef-->
+		<!-- 여기까지는 PawnKindDef에서 상속 -->
+		<!-- 아래는 StudentDef에 새로 추가된 필드 -->
 		<name>
 			<first>Azusa</first>
 			<nick>Azusa</nick>

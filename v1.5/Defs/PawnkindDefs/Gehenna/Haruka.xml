@@ -1,13 +1,14 @@
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 	<RimArchive.StudentDef ParentName="RA_BasePawn">
 		<defName>BA_Haruka</defName>
-		<label>春香</label>
+		<label>하루카</label>
 		<race>KivotosStudent</race>
-		<description>ゲヘナ学園所属、便利屋68の平社員。
+		<description>게헤나 학원 소속, 만물상 68의 평사원.
 
-			暗くて陰気な性格のため、幼い頃からずっといじめられてきたが、アルのおかげでいじめから逃れられるようになった少女。その後、末っ子的な立ち位置で便利屋68にて活動中。内気で自尊心が低いが、その突飛な発想は便利屋の中で一番恐ろしいと言っても過言ではない。</description>
+			어둡고 음침한 성격으로 인해 어린 시절부터 계속 괴롭힘을 당했지만, 알 덕분에 괴롭힘에서 벗어날 수 있게 된 소녀. 이후, 막내 같은 위치로 만물상 68에서 활동 중. 내성적이고 자존감이 낮지만, 그 독특한 발상은 만물상 중에서도 가장 무서운 것이라 해도 과언이 아니다.</description>
 		<nameMaker>NamerHaruka</nameMaker>
 		<defaultFactionType>PlayerColony</defaultFactionType>
 		<initialResistanceRange>10~11</initialResistanceRange>
@@ -35,8 +36,8 @@
 		</apparelRequired>
 		<forcedHair>Bald</forcedHair>
 
-		<!-- Until here is inherited from PawnKindDef -->
-		<!-- Below is new field added in StudentDef-->
+		<!-- 여기까지는 PawnKindDef에서 상속 -->
+		<!-- 아래는 StudentDef에 새로 추가된 필드 -->
 		<name>
 			<first>Haruka</first>
 			<nick>Haruka</nick>
@@ -97,3 +98,4 @@
 	</RimArchive.StudentDef>
 
 </Defs>
+```

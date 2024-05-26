@@ -3,17 +3,17 @@
 
 	<ResearchTabDef>
 		<defName>RimArchiveTech</defName>
-		<label>边缘档案</label>
+		<label>기술 연구</label>
 	</ResearchTabDef>
 
-	<ResearchProjectDef Name = "BA_ResearchProjectBase" Abstract = "True">
+	<ResearchProjectDef Name="BA_ResearchProjectBase" Abstract="True">
 		<tab>RimArchiveTech</tab>
 	</ResearchProjectDef>
 
-	<ResearchProjectDef ParentName = "BA_ResearchProjectBase">
+	<ResearchProjectDef ParentName="BA_ResearchProjectBase">
 		<defName>BA_Weapon_Abydos</defName>
-		<label>阿拜多斯高等学校</label>
-		<description>现在你可以制作来自阿拜多斯高等学校的武器了</description>
+		<label>아비도스 고등학교</label>
+		<description>이제 아비도스 고등학교의 무기를 제작할 수 있습니다.</description>
 		<baseCost>1000</baseCost>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
@@ -23,10 +23,10 @@
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 
-	<ResearchProjectDef ParentName = "BA_ResearchProjectBase">
+	<ResearchProjectDef ParentName="BA_ResearchProjectBase">
 		<defName>BA_Weapon_Gehenna</defName>
-		<label>格黑娜学园</label>
-		<description>现在你可以制作来自格黑娜学园的武器了</description>
+		<label>게헨나 학원</label>
+		<description>이제 게헨나 학원의 무기를 제작할 수 있습니다.</description>
 		<baseCost>1000</baseCost>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
@@ -36,10 +36,10 @@
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 
-	<ResearchProjectDef ParentName = "BA_ResearchProjectBase">
+	<ResearchProjectDef ParentName="BA_ResearchProjectBase">
 		<defName>BA_Weapon_Hyakkiyako</defName>
-		<label>百鬼夜行联合学园</label>
-		<description>现在你可以制作来自百鬼夜行联合学园的武器了</description>
+		<label>백귀야행 연합 학원</label>
+		<description>이제 백귀야행 연합 학원의 무기를 제작할 수 있습니다.</description>
 		<baseCost>1000</baseCost>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
@@ -49,10 +49,10 @@
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 
-	<ResearchProjectDef ParentName = "BA_ResearchProjectBase">
+	<ResearchProjectDef ParentName="BA_ResearchProjectBase">
 		<defName>BA_Weapon_Millennium</defName>
-		<label>千年科学学园</label>
-		<description>现在你可以制作来自千年科学学园的武器了</description>
+		<label>밀레니엄 과학 학원</label>
+		<description>이제 밀레니엄 과학 학원의 무기를 제작할 수 있습니다.</description>
 		<baseCost>1000</baseCost>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
@@ -62,10 +62,10 @@
 		<researchViewY>1</researchViewY>
 	</ResearchProjectDef>
 
-	<ResearchProjectDef ParentName = "BA_ResearchProjectBase">
+	<ResearchProjectDef ParentName="BA_ResearchProjectBase">
 		<defName>BA_Weapon_Trinity</defName>
-		<label>三一综合学园</label>
-		<description>现在你可以制作来自三一综合学园的武器了</description>
+		<label>트리니티 종합 학원</label>
+		<description>이제 트리니티 종합 학원의 무기를 제작할 수 있습니다.</description>
 		<baseCost>1000</baseCost>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
@@ -75,10 +75,10 @@
 		<researchViewY>1</researchViewY>
 	</ResearchProjectDef>
 
-	<ResearchProjectDef ParentName = "BA_ResearchProjectBase">
+	<ResearchProjectDef ParentName="BA_ResearchProjectBase">
 		<defName>BA_Weapon_SRT</defName>
-		<label>SRT特殊学园</label>
-		<description>现在你可以制作来自SRT特殊学园的武器了</description>
+		<label>SRT 특수 학원</label>
+		<description>이제 SRT 특수 학원의 무기를 제작할 수 있습니다.</description>
 		<baseCost>1000</baseCost>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
@@ -88,10 +88,10 @@
 		<researchViewY>2</researchViewY>
 	</ResearchProjectDef>
 
-	<ResearchProjectDef ParentName = "BA_ResearchProjectBase">
+	<ResearchProjectDef ParentName="BA_ResearchProjectBase">
 		<defName>BA_Weapon_Shanhaijing</defName>
-		<label>山海经高级中学</label>
-		<description>现在你可以制作来自山海经高级中学的武器了</description>
+		<label>산해경 고등학교</label>
+		<description>이제 산해경 고등학교의 무기를 제작할 수 있습니다.</description>
 		<baseCost>1000</baseCost>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
@@ -101,10 +101,10 @@
 		<researchViewY>1</researchViewY>
 	</ResearchProjectDef>
 
-	<ResearchProjectDef ParentName = "BA_ResearchProjectBase">
+	<ResearchProjectDef ParentName="BA_ResearchProjectBase">
 		<defName>BA_Weapon_Redwinter</defName>
-		<label>赤冬联邦中学</label>
-		<description>现在你可以制作来自赤冬联邦中学的武器了</description>
+		<label>붉은겨울 연방학원</label>
+		<description>이제 붉은겨울 연방학원의 무기를 제작할 수 있습니다.</description>
 		<baseCost>1000</baseCost>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
@@ -114,10 +114,10 @@
 		<researchViewY>2</researchViewY>
 	</ResearchProjectDef>
 
-	<ResearchProjectDef ParentName = "BA_ResearchProjectBase">
+	<ResearchProjectDef ParentName="BA_ResearchProjectBase">
 		<defName>BA_Weapon_Arius</defName>
-		<label>阿里乌斯分校</label>
-		<description>现在你可以制作来自阿里乌斯分校的武器了</description>
+		<label>아리우스 분교</label>
+		<description>이제 아리우스 분교의 무기를 제작할 수 있습니다.</description>
 		<baseCost>1000</baseCost>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
@@ -128,7 +128,7 @@
 	</ResearchProjectDef>
 
 	<!--
-	<ResearchProjectDef ParentName = "BA_ResearchProjectBase">
+	<ResearchProjectDef ParentName="BA_ResearchProjectBase">
 		<defName>BA_Equipments_Tier1</defName>
 		<label>Equipment (Tier 1~3)</label>
 		<description>Unlocks recipes for crafting Tier 1 ~ Tier 3 equipment.</description>
@@ -141,7 +141,7 @@
 		<researchViewY>3</researchViewY>
 	</ResearchProjectDef>
 
-	<ResearchProjectDef ParentName = "BA_ResearchProjectBase">
+	<ResearchProjectDef ParentName="BA_ResearchProjectBase">
 		<defName>BA_Equipments_Tier2</defName>
 		<label>Equipment (Tier 4~6)</label>
 		<description>Unlocks recipes for crafting Tier 4 ~ Tier 6 equipment.</description>
@@ -154,7 +154,7 @@
 		<researchViewY>3</researchViewY>
 	</ResearchProjectDef>
 
-	<ResearchProjectDef ParentName = "BA_ResearchProjectBase">
+	<ResearchProjectDef ParentName="BA_ResearchProjectBase">
 		<defName>BA_Equipments_Tier3</defName>
 		<label>Equipment (Tier 7)</label>
 		<description>Unlocks recipes for crafting Tier 7 equipment.</description>
@@ -167,10 +167,10 @@
 		<researchViewY>3</researchViewY>
 	</ResearchProjectDef>-->
 
-	<ResearchProjectDef ParentName = "BA_ResearchProjectBase">
+	<ResearchProjectDef ParentName="BA_ResearchProjectBase">
 		<defName>BA_Tech_ShittimChest</defName>
-		<label>边缘档案：什亭之匣</label>
-		<description>学习制作什亭之匣的方法，以便在边缘世界上与夏莱建立联系。</description>
+		<label>기술 연구: 싯딤의 상자</label>
+		<description>싯딤의 상자 제작 방법을 배우고, 변방 세계에서 샬레와 연결할 수 있습니다.</description>
 		<baseCost>750</baseCost>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
@@ -179,6 +179,5 @@
 		<researchViewX>0</researchViewX>
 		<researchViewY>5</researchViewY>
 	</ResearchProjectDef>
-
 
 </Defs>

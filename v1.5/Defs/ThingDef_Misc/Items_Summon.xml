@@ -3,8 +3,8 @@
 
 	<ThingDef ParentName="ResourceBase">
 		<defName>BA_Serinabox</defName>
-		<label>芹娜的急救箱</label>
-		<description>芹娜的急救箱，内有急救所需的一切工具。</description>
+		<label>세리나의 응급처치 상자</label>
+		<description>세리나의 응급처치 상자로, 응급처치에 필요한 모든 도구가 들어 있습니다.</description>
 		<thingClass>RimArchive.Medkit</thingClass>
 		<pathCost>0</pathCost>
 		<graphicData>
@@ -34,15 +34,15 @@
 				<WoundsPerHeal>5</WoundsPerHeal>
 			</li>
 			<li Class="CompProperties_InspectString">
-				<inspectString>医疗箱会治疗第一个触碰它的殖民者！(在15秒内消失)</inspectString>
+				<inspectString>응급처치 상자는 첫 번째로 만지는 식민지를 치료합니다! (15초 후 사라집니다)</inspectString>
 			</li>
 		</comps>
 	</ThingDef>
 
 	<ThingDef ParentName="ResourceBase">
 		<defName>BA_FuukaPot</defName>
-		<label>枫香的大锅</label>
-		<description>枫香的大锅，大家都想尝上一口。</description>
+		<label>후우카의 대형 냄비</label>
+		<description>후우카의 대형 냄비로, 모두가 한 입 맛보고 싶어합니다.</description>
 		<thingClass>RimArchive.ContactPot</thingClass>
 		<pathCost>0</pathCost>
 		<graphicData>
@@ -73,7 +73,7 @@
 				<WoundsPerHeal>2</WoundsPerHeal>
 			</li>
 			<li Class="CompProperties_InspectString">
-				<inspectString>供给部料理会治疗伤员的两个伤口！\n使用4次后便会消失，且每个人只能接受一次治疗。(在15秒内消失)</inspectString>
+				<inspectString>보급부 요리는 부상자의 두 상처를 치료합니다!\n4회 사용 후 사라지며, 각 사람은 한 번만 치료를 받을 수 있습니다. (15초 후 사라집니다)</inspectString>
 			</li>
 		</comps>
 	</ThingDef>

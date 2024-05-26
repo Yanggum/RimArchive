@@ -3,13 +3,13 @@
 
 	<RimArchive.StudentDef ParentName="RA_BasePawn">
 		<defName>BA_Koharu</defName>
-		<label>小春</label>
+		<label>코하루</label>
 		<race>KivotosStudent</race>
-		<description>トリニティ総合学園所属、補習授業部の一員。
+		<description>트리니티 종합학원 소속, 보충수업부 소속.
 
-			本来は正義実現委員会の所属だったが成績が落ち、留年の危機に陥ってしまい、強制的に補習授業部へと入れられてしまった。本人は自分のことをエリートだと思っているが、実際には学校の授業に全くついていけないくらい頭が悪い。密かにエッチな雑誌を集めるという趣味（？）を持っており、日常の些細なことから妄想を膨らませては、しょっちゅう一人で恥ずかしがっている。
+			원래는 정의실현위원회 소속이었으나 성적이 떨어져 유급 위기에 처해 강제적으로 보충수업부에 들어가게 되었다. 본인은 스스로를 엘리트라고 생각하지만, 실제로는 학교 수업을 전혀 따라갈 수 없을 정도로 머리가 나쁘다. 몰래 야한 잡지를 모으는 취미(?)를 가지고 있다. 을 가지고 있으며, 일상의 사소한 일로 망상을 부풀려 혼자서 자주 부끄러워한다.
 			
-			"&lt;i&gt;エッチなものは全部焼却よ！焼却！&lt;/i&gt;"</description>
+			"&lt;i&gt;야한 것은 모두 사형이야! 사형!&lt;/i&gt;"</description>
 		<nameMaker>NamerKoharu</nameMaker>
 		<defaultFactionType>PlayerColony</defaultFactionType>
 		<initialResistanceRange>10~11</initialResistanceRange>

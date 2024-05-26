@@ -3,9 +3,9 @@
 
 	<RimArchive.StudentDef ParentName="RA_BasePawn">
 		<defName>BA_Hanako</defName>
-		<label>花子</label>
+		<label>하나코</label>
 		<race>KivotosStudent</race>
-		<description>トリニティ総合学園所属、補習授業部の感性豊かな女の子。\n\n一見するとお淑やかで気品のあるお嬢さん……といった感じだが、実は口を開くと性的な言葉が止まらない問題児。\n\nそれを知っている補習授業部の部員たちは、ハナコが何かを言おうとするたびに気が気でない様子。</description>
+		<description>트리니티 종합학원 소속, 보충수업부의 감수성 풍부한 소녀.\n\n\n 언뜻 보기에는 단아하고 기품 있는 아가씨 ...... 같은 느낌이지만, 사실은 입만 열면 성적인 말이 끊이지 않는 문제아. \n\n\n 그것을 알고 있는 보충수업부 부원들은 하나코가 무언가를 말하려고 할 때마다 신경이 곤두서는 모습이다.</description>
 		<nameMaker>NamerNormalStudents</nameMaker>
 		<defaultFactionType>PlayerColony</defaultFactionType>
 		<initialResistanceRange>10~11</initialResistanceRange>

@@ -3,8 +3,8 @@
 
     <ThingDef ParentName="BA_ApparelBase">
         <defName>BAA_Body_Azusa</defName>
-        <label>梓</label>
-        <description>身体贴图</description>
+        <label>아즈사</label>
+        <description>신체 그래픽</description>
         <graphicData>
             <texPath>Things/Apparel/Apparel_Generic</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -20,80 +20,80 @@
         </apparel>
     </ThingDef>
 
-	<ThingDef ParentName="BA_ApparelBase">
-		<defName>BAA_Body_Hifumi</defName>
-		<label>日富美</label>
-		<description>身体贴图</description>
-		<graphicData>
-			<texPath>Things/Apparel/Apparel_Generic</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<apparel>
-			<wornGraphicPath>Pawns/Trinity/Hifumi/Body/Hifumi</wornGraphicPath>
-			<bodyPartGroups>
-				<li>Torso</li>
-			</bodyPartGroups>
-			<layers>
-				<li>Middle</li>
-			</layers>
-		</apparel>
-	</ThingDef>
-
-	<ThingDef ParentName="BA_ApparelBase">
-		<defName>BAA_Body_Serina</defName>
-		<label>芹娜</label>
-		<description>身体贴图</description>
-		<graphicData>
-			<texPath>Things/Apparel/Apparel_Generic</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<apparel>
-			<wornGraphicPath>Pawns/Trinity/Serina/Body/Serina</wornGraphicPath>
-			<bodyPartGroups>
-				<li>Torso</li>
-			</bodyPartGroups>
-			<layers>
-				<li>Middle</li>
-			</layers>
-		</apparel>
-	</ThingDef>
-	
-	<ThingDef ParentName="BA_ApparelBase">
-		<defName>BAA_Body_Koharu</defName>
-		<label>小春</label>
-		<description>身体贴图</description>
-		<graphicData>
-			<texPath>Things/Apparel/Apparel_Generic</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<apparel>
-			<wornGraphicPath>Pawns/Trinity/Koharu/Body/Koharu</wornGraphicPath>
-			<bodyPartGroups>
-				<li>Torso</li>
-			</bodyPartGroups>
-			<layers>
-				<li>Middle</li>
-			</layers>
-		</apparel>
-	</ThingDef>
+    <ThingDef ParentName="BA_ApparelBase">
+        <defName>BAA_Body_Hifumi</defName>
+        <label>히후미</label>
+        <description>신체 그래픽</description>
+        <graphicData>
+            <texPath>Things/Apparel/Apparel_Generic</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Pawns/Trinity/Hifumi/Body/Hifumi</wornGraphicPath>
+            <bodyPartGroups>
+                <li>Torso</li>
+            </bodyPartGroups>
+            <layers>
+                <li>Middle</li>
+            </layers>
+        </apparel>
+    </ThingDef>
 
     <ThingDef ParentName="BA_ApparelBase">
-		<defName>BAA_Body_Hanako</defName>
-		<label>花子</label>
-		<description>身体贴图</description>
-		<graphicData>
-			<texPath>Things/Apparel/Apparel_Generic</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<apparel>
-			<wornGraphicPath>Pawns/Trinity/Hanako/Body/Hanako</wornGraphicPath>
-			<bodyPartGroups>
-				<li>Torso</li>
-			</bodyPartGroups>
-			<layers>
-				<li>Middle</li>
-			</layers>
-		</apparel>
-	</ThingDef>
+        <defName>BAA_Body_Serina</defName>
+        <label>세리나</label>
+        <description>신체 그래픽</description>
+        <graphicData>
+            <texPath>Things/Apparel/Apparel_Generic</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Pawns/Trinity/Serina/Body/Serina</wornGraphicPath>
+            <bodyPartGroups>
+                <li>Torso</li>
+            </bodyPartGroups>
+            <layers>
+                <li>Middle</li>
+            </layers>
+        </apparel>
+    </ThingDef>
+
+    <ThingDef ParentName="BA_ApparelBase">
+        <defName>BAA_Body_Koharu</defName>
+        <label>코하루</label>
+        <description>신체 그래픽</description>
+        <graphicData>
+            <texPath>Things/Apparel/Apparel_Generic</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Pawns/Trinity/Koharu/Body/Koharu</wornGraphicPath>
+            <bodyPartGroups>
+                <li>Torso</li>
+            </bodyPartGroups>
+            <layers>
+                <li>Middle</li>
+            </layers>
+        </apparel>
+    </ThingDef>
+
+    <ThingDef ParentName="BA_ApparelBase">
+        <defName>BAA_Body_Hanako</defName>
+        <label>하나코</label>
+        <description>신체 그래픽</description>
+        <graphicData>
+            <texPath>Things/Apparel/Apparel_Generic</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Pawns/Trinity/Hanako/Body/Hanako</wornGraphicPath>
+            <bodyPartGroups>
+                <li>Torso</li>
+            </bodyPartGroups>
+            <layers>
+                <li>Middle</li>
+            </layers>
+        </apparel>
+    </ThingDef>
 
 </Defs>

@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<!--研讨会学生背景故事-->
-	<!--优香-->
+	<!--세미나 학생 배경 이야기-->
+	<!--유우카-->
 	<AlienRace.AlienBackstoryDef ParentName="BAW_Backstory">
 		<defName>Backstory_Yuuka</defName>
-		<title>早濑 优香</title>
-		<titleShort>优香</titleShort>
-		<baseDesc>千年学园学生会，“研讨会”的会计。</baseDesc>
+		<title>하야세 유우카</title>
+		<titleShort>유우카</titleShort>
+		<baseDesc>밀레니엄 학원 학생회, "세미나"의 회계.</baseDesc>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<slot>Childhood</slot>
 		<spawnCategories>
@@ -14,12 +14,12 @@
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 
-	<!--诺亚-->
+	<!--노아-->
 	<AlienRace.AlienBackstoryDef ParentName="BAW_Backstory">
 		<defName>Backstory_Noa</defName>
-		<title>生盐 诺亚</title>
-		<titleShort>诺亚</titleShort>
-		<baseDesc>千年科学学园所属，学生会“研讨会”的书记。</baseDesc>
+		<title>우시오 노아</title>
+		<titleShort>노아</titleShort>
+		<baseDesc>밀레니엄 사이언스 스쿨 소속, 학생회 "세미나"의 서기.</baseDesc>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<slot>Childhood</slot>
 		<spawnCategories>
@@ -27,20 +27,16 @@
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 
-	<!--莉音-->
+	<!--리오-->
 	<AlienRace.AlienBackstoryDef ParentName="BAW_Backstory">
 		<defName>Backstory_Rio</defName>
-		<title>Rio</title>
-		<titleShort>Rio</titleShort>
-		<baseDesc>Student President of the Millennium Science School and the Chairwoman of "Seminar".</baseDesc>
+		<title>츠카츠키 리오</title>
+		<titleShort>리오</titleShort>
+		<baseDesc>밀레니엄 과학 학교의 학생회장이자 "세미나"의 의장.</baseDesc>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<slot>Childhood</slot>
 		<spawnCategories>
 			<li>RimArchive_Rio</li>
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
-	
-	
-
-
 </Defs>

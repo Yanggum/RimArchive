@@ -3,8 +3,8 @@
 
     <HediffDef>
         <defName>BA_ArmorReduction</defName>
-        <label>降低防御</label>
-        <description>防御力降低。目标更容易受伤。</description>
+        <label>방어력 감소</label>
+        <description>방어력이 감소합니다. 대상이 더 쉽게 부상을 입습니다.</description>
         <hediffClass>HediffWithComps</hediffClass>
         <isBad>true</isBad>
         <comps>
@@ -21,8 +21,8 @@
 
     <HediffDef>
         <defName>BA_PillarSuppression</defName>
-        <label>被侵蚀之柱压制</label>
-        <description>被侵蚀之柱所影响。</description>
+        <label>부식의 기둥에 의해 억제됨</label>
+        <description>부식의 기둥에 영향을 받습니다.</description>
         <hediffClass>HediffWithComps</hediffClass>
         <isBad>true</isBad>
         <comps>
@@ -58,30 +58,30 @@
         <scenarioCanAdd>false</scenarioCanAdd>
         <everCurableByItem>false</everCurableByItem>
         <stages>
-            <li> <!-- Easy -->
+            <li> <!-- 쉬움 -->
                 <statFactors>
                     <IncomingDamageFactor>1.0</IncomingDamageFactor>
                 </statFactors>
             </li>
-            <li> <!-- Normal -->
+            <li> <!-- 보통 -->
                 <minSeverity>1.0</minSeverity>
                 <statFactors>
                     <IncomingDamageFactor>0.8</IncomingDamageFactor>
                 </statFactors>
             </li>
-            <li> <!-- Hard -->
+            <li> <!-- 어려움 -->
                 <minSeverity>2.0</minSeverity>
                 <statFactors>
                     <IncomingDamageFactor>0.6</IncomingDamageFactor>
                 </statFactors>
             </li>
-            <li> <!-- Insane -->
+            <li> <!-- 광기 -->
                 <minSeverity>3.0</minSeverity>
                 <statFactors>
                     <IncomingDamageFactor>0.4</IncomingDamageFactor>
                 </statFactors>
             </li>
-            <li> <!-- Torment -->
+            <li> <!-- 고문 -->
                 <minSeverity>4.0</minSeverity>
                 <statFactors>
                     <IncomingDamageFactor>0.2</IncomingDamageFactor>
@@ -97,7 +97,7 @@
         <hediffClass>RimArchive.Abilities.Hediff_DamageOverTime</hediffClass>
         <chanceToCauseNoPain>1</chanceToCauseNoPain>
         <comps>
-            <!-- 必须的HediffComp -->
+            <!-- 필수 HediffComp -->
             <!-- 
             <li Class="RimArchive.Abilities.HediffCompProperties_DamageOverTime">
             </li>    
@@ -107,7 +107,7 @@
 
     <HediffDef ParentName="BA_DoTBase">
         <defName>RA_Hediff_IntulitMortem</defName>
-        <label>赐予死亡</label>
+        <label>사망부여</label>
         <description>Lorem Ipsum</description>
         <!-- <comps>
             <li Class="RimArchive.Abilities.HediffCompProperties_DamageOverTime">
@@ -129,5 +129,4 @@
         </modExtensions>
     </HediffDef>
 
-    
 </Defs>

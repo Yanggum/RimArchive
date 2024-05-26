@@ -2,8 +2,8 @@
 <Defs>
     <XenotypeDef>
         <defName>Kivotosian</defName>
-        <label>基沃托斯人</label>
-        <description>边缘世界没人知道这学生们的神秘力量从何而来。</description>
+        <label>키보토스 사람</label>
+        <description>변방 세계에서는 이 학생들의 신비한 힘이 어디서 왔는지 아무도 모릅니다.</description>
         <iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
         <factionlessGenerationWeight>0</factionlessGenerationWeight>
         <inheritable>true</inheritable>
@@ -17,7 +17,7 @@
 
     <XenotypeDef>
         <defName>RA_XenotypeDef_Sensei</defName>
-        <label>先生</label>
+        <label>선생님</label>
         <description>Lorem Ipsum</description>
         <iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
         <factionlessGenerationWeight>0</factionlessGenerationWeight>

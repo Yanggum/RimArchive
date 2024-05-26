@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	
-	<!--纱织-->
+	<!--사오리-->
 	<ThingDef ParentName="BAW_BaseHumanMakeableGun">
 		<defName>BAW_Saori</defName>
-		<label>阿里乌斯制突击步枪</label>
-		<description>纱织使用的突击步枪。\n\n追求绝对效率的纱织自己特制的步枪。一旦捕捉到目标，不击倒绝不罢休。</description>
+		<label>아리우스제 돌격소총</label>
+		<description>사오리가 사용하는 돌격소총입니다.\n\n절대 효율을 추구하는 사오리가 직접 제작한 소총으로, 한 번 목표를 포착하면 쓰러뜨릴 때까지 멈추지 않습니다.</description>
 		<graphicData>
 			<texPath>Weapon/Arius/Saori</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -56,7 +56,7 @@
 
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_BA_Saori</defName>
-		<label>Bullet for Arius assault rifle</label>
+		<label>아리우스 돌격소총 탄환</label>
 		<graphicData>
 			<texPath>Projectile/Bullet_blue</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -70,11 +70,11 @@
 		</projectile>
 	</ThingDef>
 	
-	<!--秤砣子-->
+	<!--아츠코-->
 	<ThingDef ParentName="BAW_BaseHumanMakeableGun">
 		<defName>BAW_Atsuko</defName>
-		<label>天蝎座</label>
-		<description>亚津子使用的冲锋枪。\n\n短小的枪身蕴藏着强大火力，尤其适合近距离战斗。</description>
+		<label>천갈궁</label>
+		<description>아츠코가 사용하는 기관단총입니다.\n\n짧은 총신에 강력한 화력을 자랑하며, 특히 근접 전투에 적합합니다.</description>
 		<graphicData>
 			<texPath>Weapon/Arius/Atsuko</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -125,7 +125,7 @@
 	
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_BA_Atsuko</defName>
-		<label>Bullet for Scorpius</label>
+		<label>천갈궁 탄환</label>
 		<graphicData>
 			<texPath>Projectile/Bullet_yellow</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -139,11 +139,11 @@
 		</projectile>
 	</ThingDef>
 	
-	<!--日和-->
+	<!--히요리-->
 	<ThingDef ParentName="BAW_BaseHumanMakeableGun">
     <defName>BAW_Hiyori</defName>
-    <label>个性</label>
-    <description>日和使用的狙击步枪。\n\n精准瞄准敌人飞行20mm的子弹，即使是在弹如雨下的战场中存在感也非常强。</description>
+    <label>개성</label>
+    <description>히요리가 사용하는 저격소총입니다.\n\n정확히 적을 조준하여 발사되는 20mm 탄환은 총알이 빗발치는 전장에서도 강한 존재감을 자랑합니다.</description>
     <graphicData>
       <texPath>Weapon/Arius/Hiyori</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -193,7 +193,7 @@
   </ThingDef>
   <ThingDef ParentName="BaseBullet">
     <defName>Bullet_BA_Hiyori</defName>
-    <label>Bullet of Identity</label>
+    <label>개성 탄환</label>
     <projectile>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>41</damageAmountBase>
@@ -214,11 +214,11 @@
     </graphicData>
   </ThingDef>
 	
-	<!--美咲-->
+	<!--미사키-->
 	<ThingDef ParentName="BAW_BaseHumanMakeableGun">
 		<defName>BAW_Misaki</defName>
-		<label>圣徒掠夺者</label>
-		<description>美咲使用的火箭发射器。\n\n火箭弹发射后达到一定高度，将分裂成多个炮弹，造成大范围爆炸。</description>
+		<label>성도 약탈자</label>
+		<description>미사키가 사용하는 로켓 발사기입니다.\n\n로켓 발사 후 일정 고도에 도달하면 여러 개의 포탄으로 분리되어 넓은 범위에 폭발을 일으킵니다.</description>
 		<graphicData>
 			<texPath>Weapon/Arius/Misaki</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -279,7 +279,7 @@
 	
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_BA_Misaki</defName>
-		<label>SmallRocket</label>
+		<label>소형 로켓</label>
 		<graphicData>
 			<texPath>Projectile/Misaki</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -297,17 +297,5 @@
 			<speed>20</speed>
 		</projectile>
 	</ThingDef>
-	
-
-	
-	
-	
-  
-
-
-	
-
-	
-
 	
 </Defs>

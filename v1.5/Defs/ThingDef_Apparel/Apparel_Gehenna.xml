@@ -3,8 +3,8 @@
 
     <ThingDef ParentName="BA_ApparelBase">
         <defName>BAA_Body_Haruka</defName>
-        <label>春香</label>
-        <description>身体贴图</description>
+        <label>하루카</label>
+        <description>신체 그래픽</description>
         <graphicData>
             <texPath>Things/Apparel/Apparel_Generic</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -19,11 +19,11 @@
             </layers>
         </apparel>
     </ThingDef>
-	
+    
     <ThingDef ParentName="BA_ApparelBase">
         <defName>BAA_Body_Hina</defName>
-        <label>日奈</label>
-        <description>身体贴图</description>
+        <label>히나</label>
+        <description>신체 그래픽</description>
         <graphicData>
             <texPath>Things/Apparel/Apparel_Generic</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -41,8 +41,8 @@
 
     <ThingDef ParentName="BA_ApparelBase">
         <defName>BAA_Body_Iori</defName>
-        <label>伊织</label>
-        <description>身体贴图</description>
+        <label>이오리</label>
+        <description>신체 그래픽</description>
         <graphicData>
             <texPath>Things/Apparel/Apparel_Generic</texPath>
             <graphicClass>Graphic_Single</graphicClass>

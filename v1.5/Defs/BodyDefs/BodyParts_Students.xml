@@ -3,7 +3,7 @@
 
 	<BodyPartDef>
 		<defName>Halo</defName>
-		<label>光环</label>
+		<label>헤일로</label>
 		<hitPoints>10</hitPoints>
 		<tags>
 			<li>BloodPumpingSource</li>

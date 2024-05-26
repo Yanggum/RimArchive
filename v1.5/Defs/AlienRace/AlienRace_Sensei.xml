@@ -3,7 +3,7 @@
 
 	<AlienRace.ThingDef_AlienRace ParentName="HumanRace">
 		<defName>RA_Race_Sensei</defName>
-		<label>老师</label>
+		<label>선생님</label>
 		<description>Lorem Ipsum</description>
 		<generateCommonality>0</generateCommonality>
 		<generateAllowChance>0</generateAllowChance>
@@ -48,10 +48,10 @@
 				</apparelList>
 			</raceRestriction>
 		</alienRace>
-		<!-- 手无缚鸡之力 -->
+		<!-- 손에 무기를 쥐지 못함 -->
 		<tools>
 			<li>
-				<label>左手</label>
+				<label>왼손</label>
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
@@ -68,7 +68,7 @@
 				</surpriseAttack>
 			</li>
 			<li>
-				<label>右手</label>
+				<label>오른손</label>
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
@@ -121,7 +121,7 @@
 			</ageGenerationCurve>
 		</race>
 
-		<!--数据需要调整-->
+		<!--데이터는 조정이 필요함-->
 		<statBases>
 			<RoyalFavorValue>3</RoyalFavorValue>
 			<MarketValue>2000</MarketValue>

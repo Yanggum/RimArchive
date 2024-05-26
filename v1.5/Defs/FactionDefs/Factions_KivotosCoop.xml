@@ -3,8 +3,8 @@
 
 	<FactionDef ParentName="FactionBase">
 		<defName>Shale</defName>
-		<label>夏莱</label>
-		<description>来自于另一个宇宙的夏莱致力于为整个世界带来爱与和平。</description>
+		<label>샬레</label>
+		<description>다른 우주에서 온 샬레는 전 세계에 사랑과 평화를 가져다주기 위해 헌신하고 있습니다.</description>
 		<pawnSingular>Student</pawnSingular>
 		<pawnsPlural>Students</pawnsPlural>
 		<listOrderPriority>28</listOrderPriority>

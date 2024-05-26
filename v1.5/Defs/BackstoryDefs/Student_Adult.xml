@@ -3,9 +3,9 @@
 
 	<AlienRace.AlienBackstoryDef>
 		<defName>KivotosStudent</defName>
-		<title>基沃托斯的学生</title>
-		<titleShort>学生</titleShort>
-		<baseDesc>[PAWN_nameDef]是基沃托斯生人。</baseDesc>
+		<title>키보토스의 학생</title>
+		<titleShort>학생</titleShort>
+		<baseDesc>[PAWN_nameDef]는 키보토스 출신입니다.</baseDesc>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<slot>Adulthood</slot>
 		<spawnCategories>
@@ -13,6 +13,5 @@
 			<li>RimArchive_Adult</li>
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
-
 
 </Defs>

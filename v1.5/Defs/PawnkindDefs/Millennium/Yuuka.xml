@@ -3,11 +3,11 @@
 
 	<RimArchive.StudentDef ParentName="RA_BasePawn">
 		<defName>BA_Yuuka</defName>
-		<label>优香</label>
+		<label>유우카</label>
 		<race>KivotosStudent</race>
-		<description>ミレニアムサイエンススクール所属、生徒会「セミナー」の会計。
+		<description>밀레니엄 과학 학교 소속, 학생회 "세미나"의 회계.
 
-			理系生徒の比率が高いミレニアムでも指折りの数学の鬼才で、ミレニアムの予算周りの管理を統括している。特技は算盤で、複雑なことに悩まされていたり、葛藤している時などに算盤を弾いて落ち着かせる癖がある。</description>
+			이과 학생 비율이 높은 밀레니엄에서도 손꼽히는 수학의 귀재로, 밀레니엄의 예산 관리를 총괄하고 있습니다. 특기는 주판이며, 복잡한 문제에 고민하거나 갈등할 때 주판을 튕기며 마음을 진정시키는 습관이 있습니다.</description>
 		<nameMaker>NamerYuuka</nameMaker>
 		<defaultFactionType>PlayerColony</defaultFactionType>
 		<initialResistanceRange>10~11</initialResistanceRange>
@@ -35,8 +35,8 @@
 		</apparelRequired>
 		<forcedHair>Bald</forcedHair>
 
-		<!-- Until here is inherited from PawnKindDef -->
-		<!-- Below is new field added in StudentDef-->
+		<!-- 여기까지는 PawnKindDef에서 상속 -->
+		<!-- 아래는 StudentDef에 새로 추가된 필드 -->
 		<name>
 			<first>Yuuka</first>
 			<nick>Yuuka</nick>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<!--日奈-->
+	<!--히나-->
 	<ThingDef ParentName="BAW_BaseHumanMakeableGun">
 		<defName>BAW_Hina</defName>
-		<label>终幕：毁灭者</label>
-		<description>日奈的机关枪，她视其为手足。\n\n违反校规扰乱风纪之人，都将会被其冷酷无情的破坏力所吹飞。</description>
+		<label>종막: 파괴자</label>
+		<description>히나의 기관총, 그녀는 이것을 손발처럼 여긴다.\n\n규칙을 어기고 질서를 어지럽히는 사람들은 이 냉혹한 파괴력에 의해 날아가게 될 것이다.</description>
 		<graphicData>
 			<texPath>Weapon/Gehenna/Hina</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -54,7 +54,7 @@
 
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_BA_Hina</defName>
-		<label>Bullet of The End: Destroyer</label>
+		<label>종막: 파괴자의 탄환</label>
 		<graphicData>
 			<texPath>Projectile/Bullet_purple</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -67,11 +67,11 @@
 		</projectile>
 	</ThingDef>
 	
-	<!--伊织-->
+	<!--이오리-->
 	<ThingDef ParentName="BAW_BaseHumanMakeableGun">
 		<defName>BAW_Iori</defName>
-		<label>爆裂一击</label>
-		<description>伊织在处理违反规则之人时使用的狙击步枪。\n\n虽然是连狙击镜都没有的简单造型，伊织却说：高手不择工具。</description>
+		<label>폭렬 일격</label>
+		<description>이오리가 규칙 위반자를 처리할 때 사용하는 저격총.\n\n저격 조준경도 없는 간단한 디자인이지만, 이오리는 '고수는 도구를 가리지 않는다'라고 말한다.</description>
 		<graphicData>
 			<texPath>Weapon/Gehenna/Iori</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -118,7 +118,7 @@
 
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_BA_Iori</defName>
-		<label>Bullet of Crack Shot</label>
+		<label>폭렬 일격의 탄환</label>
 		<graphicData>
 			<texPath>Projectile/Bullet_purple</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -129,13 +129,13 @@
 			<armorPenetrationBase>0.44</armorPenetrationBase>
 			<speed>70</speed>
 		</projectile>
-		</ThingDef>
+	</ThingDef>
 		
-	<!--狗狗-->
+	<!--아코-->
 	<ThingDef ParentName="BAW_BaseHumanMakeableGun">
 		<defName>BAW_Ako</defName>
-		<label>大人物</label>
-		<description>亚子携带的手枪。\n\n亚子被任命为行政官之际，为表彰她一直以来的辛勤努力，阳奈将这把枪奖励给了她。\n\n她一直随身携带，十分重视。</description>
+		<label>대인물</label>
+		<description>아코가 가지고 다니는 권총.\n\n아코가 행정관으로 임명되었을 때, 그동안의 노고를 치하하기 위해 히나가 이 총을 선물했다.\n\n아코는 이 총을 항상 지니고 다니며 소중히 여긴다.</description>
 		<graphicData>
 			<texPath>Weapon/Gehenna/Ako</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -185,7 +185,7 @@
 
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_BA_Ako</defName>
-		<label>Bullet of HotShot</label>
+		<label>대인물의 탄환</label>
 		<graphicData>
 			<texPath>Projectile/Bullet_yellow</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -198,11 +198,11 @@
 		</projectile>
 	</ThingDef>
 
-	<!--千夏-->
+	<!--치나츠-->
 	<ThingDef ParentName="BAW_BaseHumanMakeableGun">
 		<defName>BAW_Chinatsu</defName>
-		<label>支援指针</label>
-		<description>千夏爱用的手枪。\n\n比起用来攻击谁，它在指示业务方面用得比较多，比如显示某地的位置。</description>
+		<label>지원 포인터</label>
+		<description>치나츠가 애용하는 권총.\n\n누군가를 공격하기보다는 특정 지점을 표시하는 용도로 자주 사용된다.</description>
 		<graphicData>
 			<texPath>Weapon/Gehenna/Chinatsu</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -253,7 +253,7 @@
 
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_BA_Chinatsu</defName>
-		<label>Bullet of Support Pointer</label>
+		<label>지원 포인터의 탄환</label>
 		<graphicData>
 			<texPath>Projectile/Bullet_yellow</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -266,11 +266,11 @@
 		</projectile>
 	</ThingDef>
 
-	<!--睦月-->
+	<!--무츠키-->
 	<ThingDef ParentName="BAW_BaseHumanMakeableGun">
 		<defName>BAW_Mutsuki</defName>
-		<label>给糖也要捣蛋</label>
-		<description>睦月随身携带的机关枪。\n\n据睦月所说，为了更有趣的恶作剧，火力也很重要呢。</description>
+		<label>사탕을 줘도 장난친다</label>
+		<description>무츠키가 항상 가지고 다니는 기관총.\n\n무츠키에 따르면, 더 재미있는 장난을 위해서는 화력도 중요하다고 한다.</description>
 		<graphicData>
 			<texPath>Weapon/Gehenna/Mutsuki</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -322,7 +322,7 @@
 
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_BA_Mutsuki</defName>
-		<label>Bullet of Trick or Trick</label>
+		<label>사탕을 줘도 장난친다의 탄환</label>
 		<graphicData>
 			<texPath>Projectile/Bullet_yellow</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -335,11 +335,11 @@
 		</projectile>
 	</ThingDef>
 
-	<!--阿露-->
+	<!--아루-->
 	<ThingDef ParentName="BAW_BaseHumanMakeableGun">
 		<defName>BAW_Aru</defName>
-		<label>酒红色冷赞</label>
-		<description>阿露平时十分重视，古风设计的狙击步枪。\n\n仅仅是拿着它，好像……冷硬的程度就提升了。</description>
+		<label>와인 레드 칭송</label>
+		<description>아루가 평소에 매우 소중히 여기는 고풍스러운 디자인의 저격총.\n\n이것만 가지고 있어도 냉혹한 느낌이 더해지는 것 같다.</description>
 		<graphicData>
 			<texPath>Weapon/Gehenna/Aru</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -385,7 +385,7 @@
 	</ThingDef>
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_BA_Aru</defName>
-		<label>Bullet of Wine-red Admire</label>
+		<label>와인 레드 칭송의 탄환</label>
 		<projectile>
 			<damageDef>Bullet</damageDef>
 			<damageAmountBase>30</damageAmountBase>
@@ -399,11 +399,11 @@
 		</graphicData>
 	</ThingDef>
 	
-	<!--佳世子-->
+	<!--카요코-->
 	<ThingDef ParentName="BAW_BaseHumanMakeableGun">
 		<defName>BAW_Kayoko</defName>
-		<label>恶魔的咆哮</label>
-		<description>佳代子随身携带的手枪。\n\n正如其名，它每次直接开火都会发出巨大的咆哮，所以平常基本上都装着消音器。</description>
+		<label>악마의 포효</label>
+		<description>카요코가 가지고 다니는 권총.\n\n이름 그대로 발포할 때마다 큰 소리로 포효하듯 울리기 때문에 평소에는 소음기를 장착하고 있다.</description>
 		<graphicData>
 			<texPath>Weapon/Gehenna/Kayoko</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -454,7 +454,7 @@
 
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_BA_Kayoko</defName>
-		<label>Bullet of Demon's Roar</label>
+		<label>악마의 포효의 탄환</label>
 		<graphicData>
 			<texPath>Projectile/Bullet_yellow</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -467,11 +467,11 @@
 		</projectile>
 	</ThingDef>
 
-     <!--遥香-->
+     <!--하루카-->
 	<ThingDef ParentName="BAW_BaseHumanMakeableGun">
 		<defName>BAW_Haruka</defName>
-		<label>吹飞</label>
-		<description>春香消灭害虫使用的霰弹枪。\n\n不过“害虫”的定义可能根据场合有所不同。</description>
+		<label>날려버려</label>
+		<description>하루카가 해충을 제거할 때 사용하는 산탄총.\n\n다만 '해충'의 정의는 상황에 따라 달라질 수 있다.</description>
 		<graphicData>
 			<texPath>Weapon/Gehenna/Haruka</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -523,7 +523,7 @@
 
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_BA_Haruka</defName>
-		<label>Bullet of Blow Away</label>
+		<label>날려버려의 탄환</label>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet_Shotgun</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -535,11 +535,5 @@
 			<armorPenetrationBase>0.18</armorPenetrationBase>
 		</projectile>
 	</ThingDef>
-
-
-
-
-
-
 
 </Defs>

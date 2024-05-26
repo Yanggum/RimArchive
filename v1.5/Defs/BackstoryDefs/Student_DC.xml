@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<!--格黑娜风纪委员会背景故事-->
-	<!--日奈-->
+	<!--게헤나 풍기위원회 배경 이야기-->
+	<!--히나-->
 	<AlienRace.AlienBackstoryDef ParentName="BAW_Backstory">
 		<defName>Backstory_Hina</defName>
-		<title>空崎 日奈</title>
-		<titleShort>日奈</titleShort>
-		<baseDesc>格黑娜学园的风纪委员长。</baseDesc>
+		<title>소라사키 히나</title>
+		<titleShort>히나</titleShort>
+		<baseDesc>게헨나 학원의 풍기 위원장.</baseDesc>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<slot>Childhood</slot>
 		<spawnCategories>
@@ -14,23 +14,16 @@
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 
-	<!--伊织-->
+	<!--이오리-->
 	<AlienRace.AlienBackstoryDef ParentName="BAW_Backstory">
 		<defName>Backstory_Iori</defName>
-		<title>银镜 伊织</title>
-		<titleShort>伊织</titleShort>
-		<baseDesc>格黑娜学园风纪委员会的残酷的专家。</baseDesc>
+		<title>시로미 이오리</title>
+		<titleShort>이오리</titleShort>
+		<baseDesc>게헨나 학원 풍기 위원회의 잔혹한 스페셜리스트.</baseDesc>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<slot>Childhood</slot>
 		<spawnCategories>
 			<li>RimArchive_Iori</li>
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
-
-
-	
-	
-	
-
-
 </Defs>

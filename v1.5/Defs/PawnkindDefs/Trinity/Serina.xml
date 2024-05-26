@@ -3,9 +3,9 @@
 
 	<RimArchive.StudentDef ParentName="RA_BasePawn">
 		<defName>BA_Serina</defName>
-		<label>芹娜</label>
+		<label>세리나</label>
 		<race>KivotosStudent</race>
-		<description>トリニティ総合学園所属、救護騎士団で献身する優しい少女。\n\nボランティア活動に奉仕する善良な性格の持ち主で、健康に関しては度が過ぎるほど心配性なこともあって、周りの生徒たちからは「お母さんみたい」とよく言われている。\n\n争いごとは嫌うものの、平和を脅かす敵に対しては毅然とした態度で立ち向かう。</description>
+		<description>트리니티 종합 학원 소속, 구호 기사단에서 헌신하는 상냥한 소녀.\n\n자원봉사 활동에 헌신하는 착한 성격의 소유자로, 건강에 관해서는 지나칠 정도로 걱정이 많아 주변 학생들로부터 "엄마 같아"라는 말을 자주 듣습니다.\n\n분쟁을 싫어하지만, 평화를 위협하는 적에게는 단호한 태도로 맞섭니다.</description>
 		<nameMaker>NamerNormalStudents</nameMaker>
 		<defaultFactionType>PlayerColony</defaultFactionType>
 		<initialResistanceRange>10~11</initialResistanceRange>
@@ -36,8 +36,8 @@
 			<li>BA_SummonSerinaBox</li>
 		</abilities>
 
-		<!-- Until here is inherited from PawnKindDef -->
-		<!-- Below is new field added in StudentDef-->
+		<!-- 여기까지는 PawnKindDef에서 상속 -->
+		<!-- 아래는 StudentDef에 새로 추가된 필드 -->
 		<name>
 			<first>Serina</first>
 			<nick>Serina</nick>
@@ -69,7 +69,7 @@
 			<Intellectual>
 				<level>3</level>
 				<fireLevel>1</fireLevel>
-			</Intellectual>
+			<Intellectual>
 			<Medicine>
 				<level>2</level>
 				<fireLevel>0</fireLevel>
@@ -89,7 +89,7 @@
 			<Shooting>
 				<level>8</level>
 				<fireLevel>1</fireLevel>
-			</Shooting>
+			<Shooting>
 			<Social>
 				<level>8</level>
 				<fireLevel>0</fireLevel>

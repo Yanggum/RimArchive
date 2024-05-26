@@ -3,10 +3,10 @@
 
 	<ScenarioDef>
 		<defName>RA_ScenarioDef_NudeLand</defName>
-		<label>时空扭曲</label>
-		<description>最终章。你正从轨道上单人迫降。一切看起来都结束了。但真的如此吗？</description>
+		<label>시공 왜곡</label>
+		<description>최종 장. 당신은 궤도에서 단독으로 강하 중입니다. 모든 것이 끝난 것처럼 보입니다. 하지만 정말 그럴까요?</description>
 		<scenario>
-			<summary>单人“迫降”时穿越到另一个世界的老师。虽然有什亭之匣的守护，但只能勉强保证你的存活。衣服？不存在的。</summary>
+			<summary>단독으로 "강하"할 때 다른 세계로 이동한 선생님. 시띰의 상자의 보호 덕분에 겨우 생존할 수 있습니다. 옷? 그런 건 없습니다.</summary>
 			<playerFaction>
 				<def>PlayerFaction</def>
 				<factionDef>PlayerColony</factionDef>
@@ -15,7 +15,7 @@
 				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns_Xenotypes">
 					<def>ConfigurePawnsXenotypes</def>
 					<pawnChoiceCount>1</pawnChoiceCount>
-					<customSummary>带着什亭之匣的单人“迫降”体验。</customSummary>
+					<customSummary>시띰의 상자를 가진 단독 "강하" 경험.</customSummary>
 					<overrideKinds>
 						<li>
 							<xenotype>RA_XenotypeDef_Sensei</xenotype>
@@ -26,7 +26,7 @@
 						<li>
 							<xenotype>RA_XenotypeDef_Sensei</xenotype>
 							<count>1</count>
-							<description>Lorum ipsum</description>
+							<description>Lorem ipsum</description>
 							<requiredAtStart>true</requiredAtStart>
 							<allowedDevelopmentalStages>Adult</allowedDevelopmentalStages>
 						</li>
@@ -57,23 +57,22 @@
 
 				<li Class="ScenPart_GameStartDialog">
 					<def>GameStartDialog</def>
-					<text>用掉最后一个名额将黑子传送回地面的你，正在靠着阿罗娜和普拉娜的庇护“单兵再入”。
-						霎时间，一股强大的吸力将你打进了超空间乱流，你发现自己来到了一个陌生的世界。
-						虽然什亭之匣靠着某种超能力还能和基沃托斯取得联络，但你觉得目前最紧要的事情应该是：活下去。
+					<text>마지막 자리를 사용해 블랙을 지상으로 전송한 당신은 알로나와 플라나의 보호를 받으며 "단독 재진입" 중입니다.
+						순간, 강력한 흡입력이 당신을 초공간 난류로 밀어넣었고, 당신은 낯선 세계에 도착했습니다.
+						시띰의 상자가 어떤 초능력 덕분에 키보토스와 연락을 유지할 수 있지만, 현재 가장 중요한 일은 생존입니다.
 					</text>
 					<closeSound>GameStartSting</closeSound>
 				</li>
-
 			</parts>
 		</scenario>
 	</ScenarioDef>
 
 	<ScenarioDef>
 		<defName>RA_ScenarioDef_Test</defName>
-		<label>测试</label>
-		<description>测试</description>
+		<label>테스트</label>
+		<description>테스트</description>
 		<scenario>
-			<summary>测试</summary>
+			<summary>테스트</summary>
 			<playerFaction>
 				<def>PlayerFaction</def>
 				<factionDef>PlayerColony</factionDef>
@@ -81,7 +80,7 @@
 			<parts>
 				<li Class="RimArchive.ScenPart_FixedStartingPawns">
 					<def>FixedStartingPawns</def>
-					<customSummary>测试</customSummary>
+					<customSummary>테스트</customSummary>
 					<pawnCount>1</pawnCount>
 					<possibleKindDefs>
 						<li>

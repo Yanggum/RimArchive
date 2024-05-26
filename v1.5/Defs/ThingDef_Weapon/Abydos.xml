@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	
-	<!--星野-->
+	<!--호시노-->
 	<ThingDef ParentName="BAW_BaseHumanMakeableGun">
 		<defName>BAW_Hoshino</defName>
-		<label>荷鲁斯之眼</label>
-		<description>星野爱用的简洁造型的霰弹枪。\n\n基本上懒洋洋的她，但在枪的整备上绝不会懈怠。</description>
+		<label>호루스의 눈</label>
+		<description>호시노가 애용하는 간결한 디자인의 산탄총입니다.\n\n대체로 나태한 그녀지만, 총 정비에는 절대 소홀함이 없습니다.</description>
 		<graphicData>
 			<texPath>Weapon/Abydos/Hoshino</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -56,7 +56,7 @@
 	</ThingDef>
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_BA_Hoshino</defName>
-		<label>Bullet of Eye of Horus</label>
+		<label>호루스의 눈 탄환</label>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet_Shotgun</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -70,12 +70,12 @@
 		</projectile>
 	</ThingDef>
 	
-	<!--白子-->
+	<!--시로코-->
 	
 	<ThingDef ParentName="BAW_BaseHumanMakeableGun">
 		<defName>BAW_Shiroko</defName>
-		<label>白牙 465</label>
-		<description>白子的爱用突击步枪。\n\n一直都在好好地进行整备，所以无论何时都是没有问题的状态。</description>
+		<label>화이트 펭 465</label>
+		<description>시로코가 애용하는 돌격소총입니다.\n\n항상 철저하게 정비하여 언제나 완벽한 상태를 유지합니다.</description>
 		<graphicData>
 			<texPath>Weapon/Abydos/Shiroko</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -129,7 +129,7 @@
 	</ThingDef>
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_BA_Shiroko</defName>
-		<label>Bullet of WHITE FANG 465</label>
+		<label>화이트 펭 465 탄환</label>
 		<graphicData>
 			<texPath>Projectile/Bullet_yellow</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -141,11 +141,11 @@
 		</projectile>
 	</ThingDef>
 
-	<!--芹香-->
+	<!--세리카-->
 	<ThingDef ParentName="BAW_BaseHumanMakeableGun">
 		<defName>BAW_Serika</defName>
-		<label>诚意</label>
-		<description>芹香外出打工时携带的突击步枪。\n\n芹香一直都很仔细地整备它，从这点也可以看出她认真诚实的一面。</description>
+		<label>성의</label>
+		<description>세리카가 아르바이트할 때 사용하는 돌격소총입니다.\n\n세리카는 항상 정성껏 정비하며, 그녀의 성실한 면모를 엿볼 수 있습니다.</description>
 		<graphicData>
 			<texPath>Weapon/Abydos/Serika</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -191,7 +191,7 @@
 				<range>39</range>
 				<burstShotCount>3</burstShotCount>
 				<ticksBetweenBurstShots>15</ticksBetweenBurstShots>
-				<soundCast>Shot_AssaultRifle</soundCast>
+					<soundCast>Shot_AssaultRifle</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</li>
@@ -199,7 +199,7 @@
 	</ThingDef>
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_BA_Serika</defName>
-		<label>Bullet of Sincerity</label>
+		<label>성의 탄환</label>
 		<graphicData>
 			<texPath>Projectile/Bullet_yellow</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -211,11 +211,11 @@
 		</projectile>
 	</ThingDef>
 
-  <!--野宫-->
+  <!--노노미-->
 	<ThingDef ParentName="BAW_BaseHumanMakeableGun">
 		<defName>BAW_Nonomi</defName>
-		<label>小型机关枪Ⅴ</label>
-		<description>野宫使用的机关枪。虽然名字里有“小型”，可里面容量却很大。</description>
+		<label>소형 기관총Ⅴ</label>
+		<description>노노미가 사용하는 기관총입니다. 이름에 '소형'이 들어가지만, 탄창 용량은 큽니다.</description>
 		<graphicData>
 			<texPath>Weapon/Abydos/Nonomi</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -267,7 +267,7 @@
 		</verbs>
 		<tools Inherit="False">
 			<li>
-				<label>枪托</label>
+				<label>총대</label>
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
@@ -275,7 +275,7 @@
 				<cooldownTime>2</cooldownTime>
 			</li>
 			<li>
-				<label>枪管</label>
+				<label>총구</label>
 				<capacities>
 					<li>Blunt</li>
 					<li>Poke</li>
@@ -287,7 +287,7 @@
 	</ThingDef>
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_BA_Nonomi</defName>
-		<label>Bullet of Little Machine Gun V</label>
+		<label>소형 기관총 V 탄환</label>
 		<graphicData>
 			<texPath>Projectile/Bullet_yellow</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -298,10 +298,5 @@
 			<speed>60</speed>
 		</projectile>
 	</ThingDef>
-
-
-
-
-
 
 </Defs>

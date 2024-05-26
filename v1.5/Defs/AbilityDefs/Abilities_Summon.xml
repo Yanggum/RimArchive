@@ -3,8 +3,8 @@
 
 	<AbilityDef>
 		<defName>BA_SummonSerinaBox</defName>
-		<label>集中治疗组合A</label>
-		<description>集中治疗组合A！</description>
+		<label>집중 치료 조합 A</label>
+		<description>집중 치료 조합 A!</description>
 		<iconPath>AbilityIcon/1001</iconPath>
 		<warmupMoteSocialSymbol>AbilityIcon/1001</warmupMoteSocialSymbol>
 		<warmupSound>MoralistAbility_Warmup</warmupSound>

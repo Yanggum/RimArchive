@@ -3,11 +3,11 @@
 
 	<RimArchive.StudentDef ParentName="RA_BasePawn">
 		<defName>BA_Noa</defName>
-		<label>诺亚</label>
+		<label>노아</label>
 		<race>KivotosStudent</race>
-		<description>ミレニアムサイエンススクール所属、生徒会「セミナー」の書記。
+		<description>밀레니엄 과학 학교 소속, 학생회 "세미나"의 서기.
 
-			主にセミナーの決定事項や会議内容を記録しており、ミレニアムの生徒が開発した製品の特許を鑑別・登録する弁理士の業務も担当している。非常に優れた記憶力の持ち主で、一度見聞きした内容はほぼ完璧に暗記できるのだとか。</description>
+			주로 세미나의 결정 사항이나 회의 내용을 기록하며, 밀레니엄 학생들이 개발한 제품의 특허를 감별하고 등록하는 변리사 업무도 담당하고 있습니다. 매우 뛰어난 기억력을 가지고 있어 한 번 본 내용은 거의 완벽하게 암기할 수 있다고 합니다.</description>
 		<nameMaker>NamerNoa</nameMaker>
 		<defaultFactionType>PlayerColony</defaultFactionType>
 		<initialResistanceRange>10~11</initialResistanceRange>
@@ -36,8 +36,8 @@
 		<forcedHair>Bald</forcedHair>
 		
 
-		<!-- Until here is inherited from PawnKindDef -->
-		<!-- Below is new field added in StudentDef-->
+		<!-- 여기까지는 PawnKindDef에서 상속 -->
+		<!-- 아래는 StudentDef에 새로 추가된 필드 -->
 		<name>
 			<first>Noa</first>
 			<nick>Noa</nick>
