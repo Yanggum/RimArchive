@@ -12,12 +12,12 @@
     </requiredTraits>
     <stages>
       <li>
-        <label>老师就在身边</label>
-        <description>马上又能见到老师了！</description>
+        <label>선생님이 바로 옆에 있어요</label>
+        <description>곧 선생님을 다시 만날 수 있어요!</description>
         <baseMoodEffect>4</baseMoodEffect>
       </li>
     </stages>
-  </ThoughtDef> <!--补课部-->
+  </ThoughtDef> <!--보강 부-->
 
   <ThoughtDef>
     <defName>Hatred</defName>
@@ -29,12 +29,12 @@
     </requiredTraits>
     <stages>
       <li>
-        <label>万物皆虚</label>
-        <description>无论行至何处，一切皆是虚无。</description>
+        <label>만물개허</label>
+        <description>어디를 가든 모든 것이 허무합니다.</description>
         <baseMoodEffect>-8</baseMoodEffect>
       </li>
     </stages>
-  </ThoughtDef> <!--奥利斯小队-->
+  </ThoughtDef> <!--오리스 팀-->
 
   <ThoughtDef>
     <defName>RA_ThoughtDef_Azusa</defName>
@@ -46,12 +46,12 @@
     </requiredTraits>
     <stages>
       <li>
-        <label>万物皆虚，万事皆允</label>
-        <description>一切都是虚无，人生一点意义都没有。但是......我想相信......你的话语。</description>
+        <label>만물개허, 만사개윤</label>
+        <description>모든 것이 허무하고 인생에는 의미가 없습니다. 하지만... 나는 믿고 싶어요... 당신의 말을.</description>
         <baseMoodEffect>-2</baseMoodEffect>
       </li>
     </stages>
-  </ThoughtDef> <!--三一的间谍-->
+  </ThoughtDef> <!--트리니티의 스파이-->
 
   <ThoughtDef>
     <defName>RA_ThoughtDef_Hoshino</defName>
@@ -64,8 +64,8 @@
     </nullifyingTraits> -->
     <stages>
       <li>
-        <label>巡夜者</label>
-        <description>在睡觉时间也要保护好学校！</description>
+        <label>야경자</label>
+        <description>잠자는 시간에도 학교를 지켜야 해요!</description>
         <baseMoodEffect>10</baseMoodEffect>
       </li>
     </stages>

@@ -18,7 +18,7 @@
     <XenotypeDef>
         <defName>RA_XenotypeDef_Sensei</defName>
         <label>선생님</label>
-        <description>Lorem Ipsum</description>
+        <description>이세계에서 온 선생님</description>
         <iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
         <factionlessGenerationWeight>0</factionlessGenerationWeight>
         <inheritable>true</inheritable>

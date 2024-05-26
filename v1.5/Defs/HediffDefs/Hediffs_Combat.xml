@@ -52,8 +52,8 @@
         this.CurStage.becomeVisible;-->
     <HediffDef>
         <defName>BA_BossDamageReduction</defName>
-        <label>Lorem Ipsum</label>
-        <description>Lorem Ipsum</description>
+        <label>보스 데미지 감소</label>
+        <description>보스 데미지 감소</description>
         <isBad>false</isBad>
         <scenarioCanAdd>false</scenarioCanAdd>
         <everCurableByItem>false</everCurableByItem>
@@ -108,7 +108,7 @@
     <HediffDef ParentName="BA_DoTBase">
         <defName>RA_Hediff_IntulitMortem</defName>
         <label>사망부여</label>
-        <description>Lorem Ipsum</description>
+        <description>사망부여</description>
         <!-- <comps>
             <li Class="RimArchive.Abilities.HediffCompProperties_DamageOverTime">
                 <damageDef>Bullet</damageDef>

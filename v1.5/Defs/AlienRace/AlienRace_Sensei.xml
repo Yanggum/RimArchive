@@ -4,7 +4,7 @@
 	<AlienRace.ThingDef_AlienRace ParentName="Human">
 		<defName>RA_Race_Sensei</defName>
 		<label>선생님</label>
-		<description>Lorem Ipsum</description>
+		<description>평범한 선새니</description>
 		<generateCommonality>0</generateCommonality>
 		<generateAllowChance>0</generateAllowChance>
 		<alienRace>

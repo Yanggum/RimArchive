@@ -12,8 +12,8 @@
         this.CurStage == null || 
         this.CurStage.becomeVisible; -->
 
-  <BA_BossDamageReduction.label>Lorem Ipsum</BA_BossDamageReduction.label>
-  <BA_BossDamageReduction.description>Lorem Ipsum</BA_BossDamageReduction.description>
+  <BA_BossDamageReduction.label>보스 데미지 감소</BA_BossDamageReduction.label>
+  <BA_BossDamageReduction.description>보스 데미지를 감소시킨다.</BA_BossDamageReduction.description>
 
 
 </LanguageData>

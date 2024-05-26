@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+	<!--사키-->
 	<ThingDef ParentName="BAW_BaseHumanMakeableGun">
 		<defName>BAW_Saki</defName>
-		<label>RABBIT-26式机关枪</label>
-		<description>SRT特殊学园配给咲的制式机关枪。\n\n因为其构造导致整备很困难，但只要好好整备就是拥有强大火力的机枪。</description>
+		<label>RABBIT-26형 기관총</label>
+		<description>SRT 특수 학원에서 사키에게 지급한 표준 기관총。\n\n구조로 인해 정비가 어렵지만, 잘 정비하면 강력한 화력을 자랑하는 기관총입니다。</description>
 		<graphicData>
 			<texPath>Weapon/SRT/Saki</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -55,7 +56,7 @@
 
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_BA_Saki</defName>
-		<label>Bullet for RABBIT-26 type Machine Gun</label>
+		<label>RABBIT-26형 기관총의 탄환</label>
 		<graphicData>
 			<texPath>Projectile/Bullet_yellow</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -69,10 +70,11 @@
 		</projectile>
 	</ThingDef>
 	
+	<!--미야코-->
 	<ThingDef ParentName="BAW_BaseHumanMakeableGun">
 		<defName>BAW_Miyako</defName>
-		<label>RABBIT-31式短机关枪</label>
-		<description>SRT特殊学园配给宫子的制式冲锋枪。\n\n它是一支高度可靠的枪，即使在极限的情况下也能有效地击退敌人。</description>
+		<label>RABBIT-31형 단기관총</label>
+		<description>SRT 특수 학원에서 미야코에게 지급한 표준 기관단총。\n\n극한의 상황에서도 효과적으로 적을 격퇴할 수 있는 고신뢰도 총기입니다。</description>
 		<graphicData>
 			<texPath>Weapon/SRT/Miyako</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -120,7 +122,7 @@
 
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_BA_Miyako</defName>
-		<label>Bullet of RABBIT-31 type submachine gun</label>
+		<label>RABBIT-31형 기관단총의 탄환</label>
 		<graphicData>
 			<texPath>Projectile/Bullet_cyan</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -133,10 +135,11 @@
 		</projectile>
 	</ThingDef>
 	
+	<!--미유-->
 	<ThingDef ParentName="BAW_BaseHumanMakeableGun">
     <defName>BAW_Miyu</defName>
-    <label>RABBIT-39式来福枪</label>
-    <description>SRT特殊学园配给美游的制式狙击枪。\n\n它精密的做工、惊人的命中率令人称道。</description>
+    <label>RABBIT-39형 소총</label>
+    <description>SRT 특수 학원에서 미유에게 지급한 표준 저격총。\n\n정밀한 제작과 놀라운 명중률로 유명합니다。</description>
     <graphicData>
       <texPath>Weapon/SRT/Miyu</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -186,7 +189,7 @@
   </ThingDef>
   <ThingDef ParentName="BaseBullet">
     <defName>Bullet_BA_Miyu</defName>
-    <label>Bullet of RABBIT-39 type Rifle</label>
+    <label>RABBIT-39형 소총의 탄환</label>
     <projectile>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>29</damageAmountBase>
@@ -200,13 +203,11 @@
     </graphicData>
   </ThingDef>
 
-
-	
-
+	<!--모에-->
 	<ThingDef ParentName="BAW_BaseMakeableGunWithNoQuality">
 		<defName>BAW_Moe</defName>
-		<label>萌绘的通讯装置与望远镜</label>
-		<description>!该武器机制尚未完善！\n\n萌绘的战斗鹰直升机正在外围待机。用望远镜指示器与通讯器来为萌绘提供攻击坐标，她会立刻发射大量的火箭弹把目标地点炸翻天！\n\n这会需要很长的时间来引导射击，你需要清楚的视野、足够的时间且你不应该朝自己开火。</description>
+		<label>모에의 통신 장치와 망원경</label>
+		<description>!해당 무기 메커니즘은 아직 미완성입니다! \n\n모에의 전투용 매 부대가 외곽에서 대기 중입니다. 망원경 지시기와 통신기를 사용하여 모에에게 공격 좌표를 제공하면, 대량의 로켓탄을 발사하여 목표 지점을 폭파시킬 것입니다! \n\n사격 유도에는 많은 시간이 필요하며, 명확한 시야와 충분한 시간, 그리고 자신을 겨냥하지 않아야 합니다.</description>
 		<graphicData>
 			<texPath>Weapon/Special/Miyusbinocle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -274,7 +275,7 @@
 
 	<ThingDef ParentName="OrbitalStrikeBase">
 		<defName>Bombardment_beacon</defName>
-		<label>Target Beacon</label>
+		<label>표적 지시기</label>
 		<!-- <graphicData>
 			<texPath>Projectile/Hikari</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -298,11 +299,11 @@
 		
 	</ThingDef>
 
-	<!--萌绘（手枪）-->
+	<!--모에 (권총)-->
 	<ThingDef ParentName="BAW_BaseHumanMakeableGun">
 		<defName>BAW_MoeHG</defName>
-		<label>Rabbit-224式手枪</label>
-		<description>SRT特殊学园配给萌绘的制式手枪。\n\n尽管是手枪但仍保有强大的连射能力，能够瞬间将弹夹内的子弹倾泻一空。</description>
+		<label>Rabbit-224형 권총</label>
+		<description>SRT 특수 학원에서 모에에게 지급한 표준 권총。\n\n비록 권총이지만 강력한 연사 능력을 가지고 있어, 순간적으로 탄창 안의 모든 탄환을 쏟아낼 수 있습니다。</description>
 		<graphicData>
 			<texPath>Weapon/SRT/Moe</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -315,7 +316,7 @@
 		<recipeMaker>
 			<researchPrerequisite>BA_Weapon_SRT</researchPrerequisite>
 			<skillRequirements>
-				<Crafting>6</Crafting>
+				Crafting>6</Crafting>
 			</skillRequirements>
 			<displayPriority>400</displayPriority>
 		</recipeMaker>
@@ -353,7 +354,7 @@
 
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_BA_Moe</defName>
-		<label>Bullet of Rabbit-224 type pistol</label>
+		<label>Rabbit-224형 권총의 탄환</label>
 		<graphicData>
 			<texPath>Projectile/Bullet_blue</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

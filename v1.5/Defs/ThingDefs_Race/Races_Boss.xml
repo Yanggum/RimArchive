@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<ThingDef ParentName = "SuperHeavyMechanoid">
+	<ThingDef ParentName="SuperHeavyMechanoid">
 		<defName>BA_MECH_HOD</defName>
 		<label>HOD</label>
-		<description>十字神名是声称自己为神圣求道者的人工智能系统。目前，信奉其的10名预言者正在基沃托斯各地出没。 Hod原本是千年的通信单元AI，受到不明AI攻击后开始宣称自己是十字神名的第8位预言者。如果这座凝聚了千年最先进科技的计算设施不停止暴走的话，千年地区的安全一定会受到威胁。</description>
+		<description>십자가의 신명은 스스로를 신성한 구도자라고 주장하는 인공지능 시스템입니다. 현재, 이를 신봉하는 10명의 예언자가 기보토스 각지에서 활동하고 있습니다. HOD는 원래 밀레니엄의 통신 유닛 AI였으나, 정체불명의 AI 공격을 받은 후 스스로를 십자가의 신명의 8번째 예언자라고 주장하기 시작했습니다. 이 밀레니엄의 최첨단 기술을 집약한 계산 시설이 폭주를 멈추지 않는다면, 밀레니엄 지역의 안전이 크게 위협받을 것입니다.</description>
 		<race>
 			<body>Mech_Diabolus</body>
 			<baseBodySize>4</baseBodySize>

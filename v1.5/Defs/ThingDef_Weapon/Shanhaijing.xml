@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	
+	<!--코코나-->
 	<ThingDef ParentName="BAW_BaseHumanMakeableGun">
 		<defName>BAW_Kokona</defName>
-		<label>淑女的气质</label>
-		<description>无论是在展现淑女的品味的时候，还是在履行作为教官的职责的时候都非常实用的突击步枪。</description>
+		<label>숙녀의 기품</label>
+		<description>숙녀의 품격을 드러낼 때나 교관으로서의 임무를 수행할 때 매우 유용한 돌격 소총입니다。</description>
 		<graphicData>
 			<texPath>Weapon/Shanhaijing/Kokona</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -52,7 +52,7 @@
 
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_BA_Kokona</defName>
-		<label>Bullet of Lady's Grace</label>
+		<label>숙녀의 기품의 탄환</label>
 		<graphicData>
 			<texPath>Projectile/Bullet_yellow</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -65,10 +65,11 @@
 		</projectile>
 	</ThingDef>
 	
+	<!--슌-->
 	<ThingDef ParentName="BAW_BaseHumanMakeableGun">
     <defName>BAW_Shun</defName>
-    <label>爱之鞭</label>
-    <description>瞬使用的狙击步枪。\n\n无论是怎样的问题儿童，只要瞬拿出这把枪就立马会变成乖孩子。\n\n当然，没有对幼儿园的孩子们这样使用过。</description>
+    <label>사랑의 채찍</label>
+    <description>슌이 사용하는 저격 소총。\n\n어떤 문제아라도 슌이 이 총을 꺼내면 순식간에 얌전해집니다。\n\n물론 유치원 아이들에게는 사용하지 않았습니다。</description>
     <graphicData>
       <texPath>Weapon/Shanhaijing/Shun</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -118,7 +119,7 @@
   </ThingDef>
   <ThingDef ParentName="BaseBullet">
     <defName>Bullet_BA_Shun</defName>
-    <label>Bullet of Whip of Love</label>
+    <label>사랑의 채찍의 탄환</label>
     <projectile>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>34</damageAmountBase>
@@ -132,9 +133,4 @@
 	  <drawSize>1.3</drawSize>
     </graphicData>
   </ThingDef>
-
-
-	
-
-	
 </Defs>

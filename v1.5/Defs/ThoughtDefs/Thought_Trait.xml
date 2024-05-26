@@ -11,9 +11,9 @@
         </requiredTraits>
         <stages>
             <li>
-                <label>万物皆虚</label>
-                <description>虚空的虚空，虚空的虚空，凡事都是虚空。
-                    ----《传道书1:2》</description>
+                <label>Vanitas vanitatum</label>
+                <description>Vanitas vanitatum et omnia vanitas.
+                    ----《전도서1:2》</description>
                 <baseMoodEffect>-8</baseMoodEffect>
             </li>
         </stages>

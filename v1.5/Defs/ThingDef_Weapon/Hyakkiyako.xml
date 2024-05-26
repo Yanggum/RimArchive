@@ -4,8 +4,8 @@
 	<!--泉奈-->
 	<ThingDef ParentName="BAW_BaseHumanMakeableGun">
 		<defName>BAW_Izuna</defName>
-		<label>泉奈流的超级忍具</label>
-		<description>泉奈爱用的冲锋枪。\n\n一种最先进的忍具，和泉奈流忍法相结合使用的话，用途就无限广泛了，\n\n比如说射击投掷烟雾弹、按摩主公的肩膀等等。</description>
+		<label>이즈나류의 슈퍼 닌자 도구</label>
+		<description>이즈나가 애용하는 기관단총。\n\n가장 진보된 닌자 도구로, 이즈나류 닌법과 결합하여 사용하면 용도가 무궁무진합니다。\n\n예를 들어 연막탄을 쏘거나, 주군의 어깨를 마사지하는 등의 활용이 가능합니다。</description>
 		<graphicData>
 			<texPath>Weapon/Hyakkiyako/Izuna</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -59,7 +59,7 @@
 	</ThingDef>
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_BA_Izuna</defName>
-		<label>Bullet of Izuna-style Super Ninja Apparatus</label>
+		<label>이즈나 스타일 슈퍼 닌자 도구의 탄환</label>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet_Small</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -75,8 +75,8 @@
 	<!--若藻-->
 	<ThingDef ParentName="BAW_BaseHumanMakeableGun">
 		<defName>BAW_Wakamo</defName>
-		<label>深红灾厄</label>
-		<description>若藻爱用的来福枪。\n\n与其古朴的外观相反，它总是散发着火焰与火药的味道。\n\n如今，它经常被用来对付老师身边“碍事的东西”。</description>
+		<label>심홍 재앙</label>
+		<description>와카모가 애용하는 소총。\n\n그 고풍스러운 외관과는 달리, 항상 불꽃과 화약의 냄새를 풍깁니다。\n\n현재는 선생님 곁의 “방해되는 것들”을 제거하는 데 자주 사용됩니다。</description>
 		<graphicData>
 			<texPath>Weapon/Hyakkiyako/Wakamo</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -133,7 +133,7 @@
 
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_BA_Wakamo</defName>
-		<label>Bullet of Crimson Calamity</label>
+		<label>심홍 재앙의 탄환</label>
 		<graphicData>
 			<texPath>Projectile/Bullet_red</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -149,8 +149,8 @@
 	<!--月咏-->
 	<ThingDef ParentName="BAW_BaseHumanMakeableGun">
 		<defName>BAW_Tsukuyo</defName>
-		<label>月咏流冲锋枪</label>
-		<description>月咏十分重视的冲锋枪。\n\n月咏不擅长处理枪械，所以小满和泉奈帮忙添加了各种装饰，并且进行了改造。\n\n对月咏来说，它是无可替代的。每个重要的瞬间，她都更加温柔地握住枪身。</description>
+		<label>츠쿠요류 기관단총</label>
+		<description>츠쿠요가 매우 소중히 여기는 기관단총。\n\n츠쿠요는 총기를 다루는 것을 잘 못하기 때문에, 코하루와 이즈나가 도와서 여러 가지 장식을 추가하고 개조했습니다。\n\n츠쿠요에게 이것은 대체 불가능한 무기입니다. 중요한 순간마다, 그녀는 더욱 부드럽게 총신을 잡습니다。</description>
 		<graphicData>
 			<texPath>Weapon/Hyakkiyako/Tsukuyo</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -178,6 +178,7 @@
 			<AccuracyMedium>0.39</AccuracyMedium>
 			<AccuracyLong>0.31</AccuracyLong>
 			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+			<MoveSpeed>0.25</MoveSpeed>
 		</statBases>
 		<costList>
 			<Steel>75</Steel>
@@ -200,7 +201,7 @@
 	</ThingDef>
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_BA_Tsukuyo</defName>
-		<label>Bullet of Tsukuyo-style Submachine Gun</label>
+		<label>츠쿠요 스타일 기관단총의 탄환</label>
 		<graphicData>
 			<texPath>Projectile/Bullet_yellow</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -215,8 +216,8 @@
 	<!--三千留-->
 	<ThingDef ParentName="BAW_BaseHumanMakeableGun">
 		<defName>BAW_Michiru</defName>
-		<label>三千留流溢流喷枪</label>
-		<description>三千留爱用的霰弹枪。\n\n为了能够运用她的忍术，进行了各种改造，比如能射击特殊子弹、追加弹夹等。虽然反而更难使用了，可小三千留却说“这样也很有味道呢！”。</description>
+		<label>미치루류 범람 산탄총</label>
+		<description>미치루가 애용하는 산탄총。\n\n그녀의 닌술을 사용할 수 있도록 다양한 개조가 이루어졌습니다. 예를 들어, 특수 탄환을 발사하거나 추가 탄창을 장착하는 등의 개조가 이루어졌습니다. 비록 사용이 더 어려워졌지만, 작은 미치루는 “이렇게 하는 것도 나름 멋있어요!”라고 말합니다。</description>
 		<graphicData>
 			<texPath>Weapon/Hyakkiyako/Michiru</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -268,7 +269,7 @@
 
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_BA_Michiru</defName>
-		<label>Bullet of Michiru-style Overflow Shotgun</label>
+		<label>미치루 스타일 범람 산탄총의 탄환</label>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet_Shotgun</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -280,11 +281,5 @@
 			<armorPenetrationBase>0.15</armorPenetrationBase>
 		</projectile>
 	</ThingDef>
-
-
-
-
-
-
 
 </Defs>

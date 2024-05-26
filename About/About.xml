@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <ModMetaData>
-  <name>RimArchive-In Progress</name>
-  <author>Auxia</author>
+  <name>RimArchive (Korean Continued)</name>
+  <author>Author - Auxia, Continued by - Mako</author>
   <supportedVersions>
     <li>1.4</li>
 	<li>1.5</li>
   </supportedVersions>
-  <packageId>Auxia.Weaponpack.BlueArchive</packageId>
-  <description>
+  <packageId>Mako.Weaponpack.BlueArchive</packageId>
+  <description>	
+	Mako's Description:	이 모드는 중국어로 만들어진 원작 모드의 한국어 호환성 패치입니다. 본 패치는 원작 모드의 제작자와는 아무런 관련이 없으며, 
+	본 패치의 제작자는 원작 모드에 대한 어떠한 권리도 보유하지 않습니다. 원작 모드의 모든 권리는 해당 제작자에게 있으며, 이 호환성 패치는 오직 한국어 사용자들의 편의를 위해 제공되는 것입니다. 원작 모드의 지적 재산권을 존중하며, 문제가 발생할 경우 즉시 삭제하겠습니다.
+
     Before All:This mod is now still in progress.Some contents are not actually installed in this mod.Current status does not represent the final quality.
 	알림: 본 모드는 여전히 진행 중이며, 일부 콘텐츠는 아직 모드에 설치되지 않았습니다. 현재 상태는 최종 품질을 나타내지 않습니다.
 	

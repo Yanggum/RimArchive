@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<!--日富美-->
+	<!--히후미-->
 	<ThingDef ParentName="BAW_BaseHumanMakeableGun">
 		<defName>BAW_Hifumi</defName>
-		<label>我的必需品</label>
-		<description>富美随身携带的粉色突击步枪。\n\n和其他喜欢的物品一样，是她外出无论怎样都要带着的必需品。</description>
+		<label>나의 필수품</label>
+		<description>히후미가 항상 가지고 다니는 분홍색 돌격 소총。\n\n다른 좋아하는 물건들처럼, 외출할 때 반드시 챙겨야 하는 필수품입니다。</description>
 		<graphicData>
 			<texPath>Weapon/Trinity/Hifumi</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -55,7 +55,7 @@
 	</ThingDef>
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_BA_Hifumi</defName>
-		<label>Bullet of My Necessity</label>
+		<label>필수품의 탄환</label>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet_Small</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -67,11 +67,11 @@
 		</projectile>
 	</ThingDef>
 
-	<!--小春-->
+	<!--코하루-->
 	<ThingDef ParentName="BAW_BaseHumanMakeableGun">
 		<defName>BAW_Koharu</defName>
-		<label>正义之黑</label>
-		<description>小春使用的狙击步枪。\n\n这个名字是小春在正义实现委员会的时候取的。</description>
+		<label>정의의 검은색</label>
+		<description>코하루가 사용하는 저격 소총。\n\n이 이름은 코하루가 정의 실현 위원회에 있을 때 지은 것입니다。</description>
 		<graphicData>
 			<texPath>Weapon/Trinity/Koharu</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -121,7 +121,7 @@
 	</ThingDef>
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_BA_Koharu</defName>
-		<label>Bullet of Justice Black</label>
+		<label>정의의 검은색 탄환</label>
 		<graphicData>
 			<texPath>Projectile/Bullet_yellow</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -133,11 +133,11 @@
 		</projectile>
 	</ThingDef>
 
-	<!--鹤城-->
+	<!--츠루기-->
 	<ThingDef ParentName="BAW_BaseHumanMakeableGun">
 		<defName>BAW_Tsurugi</defName>
-		<label>血与火药</label>
-		<description>鹤城使用的双持霰弹枪。\n\n两把枪分别名叫“血（Blood）”和“火药（Gunpowder）”，从外观来看没有区别。</description>
+		<label>피와 화약</label>
+		<description>츠루기가 사용하는 양손 산탄총。\n\n두 총의 이름은 각각 “피(Blood)”와 “화약(Gunpowder)”이며, 외관상 차이점은 없습니다。</description>
 		<graphicData>
 			<texPath>Weapon/Trinity/Tsurugi</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -183,7 +183,7 @@
 		</verbs>
 		<tools>
 			<li>
-				<label>stock</label>
+				<label>스톡</label>
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
@@ -194,7 +194,7 @@
 	</ThingDef>
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_BA_Tsurugi</defName>
-		<label>Bullet of BloodnGunpowder</label>
+		<label>피와 화약의 탄환</label>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet_Shotgun</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -208,11 +208,11 @@
 		</projectile>
 	</ThingDef>
 
-	<!--梓-->
+	<!--아즈사-->
 	<ThingDef ParentName="BAW_BaseHumanMakeableGun">
 		<defName>BAW_Azusa</defName>
-		<label>万事皆虚</label>
-		<description>梓经常拿着的枪。\n\n枪身刻着文字“一切皆是虚空。无论行至何处，一切皆虚”。</description>
+		<label>만사무상</label>
+		<description>아즈사가 자주 들고 다니는 총。\n\n총신에 “모든 것은 공허하다. 어디로 가든 모든 것이 공허하다”는 글귀가 새겨져 있습니다。</description>
 		<graphicData>
 			<texPath>Weapon/Trinity/Azusa</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -274,7 +274,7 @@
 	</ThingDef>
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_BA_Azusa</defName>
-		<label>Bullet of Et Omnia Vanitas</label>
+		<label>만사무상의 탄환</label>
 		<graphicData>
 			<texPath>Projectile/Bullet_purple</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -293,11 +293,11 @@
 		</projectile>
 	</ThingDef>
 
-	<!--花子-->
+	<!--하나코-->
 	<ThingDef ParentName="BAW_BaseHumanMakeableGun">
 		<defName>BAW_Hanako</defName>
-		<label>真诚之愿</label>
-		<description>花子的狙击步枪。\n\n即便向她打听这把枪名的由来，她也不告诉。</description>
+		<label>진심의 소원</label>
+		<description>하나코의 저격 소총。\n\n총 이름의 유래를 물어봐도 그녀는 알려주지 않습니다。</description>
 		<graphicData>
 			<texPath>Weapon/Trinity/Hanako</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -347,7 +347,7 @@
 	</ThingDef>
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_BA_Hanako</defName>
-		<label>Bullet of Honest Wish</label>
+		<label>진심의 소원의 탄환</label>
 		<graphicData>
 			<texPath>Projectile/Bullet_yellow</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -359,11 +359,11 @@
 		</projectile>
 	</ThingDef>
 
-	<!--芹娜-->
+	<!--세리나-->
 	<ThingDef ParentName="BAW_BaseHumanMakeableGun">
 		<defName>BAW_Serina</defName>
-		<label>战术治愈</label>
-		<description>芹娜所持突击步枪。\n\n就使用方法来说，它应该不会沦落为注射器吧……大概。</description>
+		<label>전술 치료</label>
+		<description>세리나가 들고 다니는 돌격 소총。\n\n사용 방법을 보면, 주사기로 전락하지는 않을 것 같습니다… 아마도。</description>
 		<graphicData>
 			<texPath>Weapon/Trinity/Serina</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -413,7 +413,7 @@
 	</ThingDef>
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_BA_Serina</defName>
-		<label>Bullet of Tactical Therapy</label>
+		<label>전술 치료의 탄환</label>
 		<graphicData>
 			<texPath>Projectile/Bullet_yellow</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -425,11 +425,11 @@
 		</projectile>
 	</ThingDef>
 
-	<!--一花（暂定，因为这把武器可能还会配给三一的杂鱼酱）-->
+	<!--이치카-->
 	<ThingDef ParentName="BAW_BaseHumanMakeableGun">
 		<defName>BAW_Ichika</defName>
-		<label>Restraint</label>
-		<description>Combat Rifile used by Ichika.It is well maintained and almost brand new.\n\nThere's no need to shine when it's not necessary she said .</description>
+		<label>절제</label>
+		<description>이치카가 사용하는 전투 소총입니다. 잘 관리되어 거의 새것입니다.\n\n필요하지 않을 때는 빛날 필요가 없다고 그녀는 말했습니다.</description>
 		<graphicData>
 			<texPath>Weapon/Trinity/Ichika</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -479,7 +479,7 @@
 	</ThingDef>
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_BA_Ichika</defName>
-		<label>Bullet of Restraint</label>
+		<label>절제의 탄환</label>
 		<graphicData>
 			<texPath>Projectile/Bullet_blue</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
