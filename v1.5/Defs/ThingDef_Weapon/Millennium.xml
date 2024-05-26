@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<!--  响-->
+	<!--  히비키 -->
 	<ThingDef ParentName="BAW_BaseHumanMakeableGun">
 		<defName>BAW_Hibiki</defName>
-		<label>奇幻色彩</label>
-		<description>响爱用的迫击炮。\n\n经常在每天的实验中使用，除了炮弹以外也可以发射各种各样的东西。</description>
+		<label>기환색채</label>
+		<description>히비키가 애용하는 박격포。\n\n매일 실험에서 자주 사용되며, 포탄 외에도 다양한 물체를 발사할 수 있습니다。</description>
 		<graphicData>
 			<texPath>Weapon/Millennium/Hibiki</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -62,7 +62,7 @@
 	</ThingDef>
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_BA_Hibiki</defName>
-		<label>Shell of Fancy Light</label>
+		<label>환상의 빛의 탄환</label>
 		<graphicData>
 			<texPath>Things/Projectile/Rocket_Big</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -76,11 +76,11 @@
 		</projectile>
 	</ThingDef>
 	
-	<!--尼禄-->
+	<!-- 네루 -->
 	<ThingDef ParentName="BAW_BaseHumanMakeableGun">
 		<defName>BAW_Neru</defName>
-		<label>双龙</label>
-		<description>尼禄使用的双持冲锋枪。\n\n两把枪身都刻着黄金之龙的美丽花纹。</description>
+		<label>쌍룡</label>
+		<description>네루가 사용하는 쌍권총。\n\n두 총신 모두 황금 용의 아름다운 문양이 새겨져 있습니다。</description>
 		<graphicData>
 			<texPath>Weapon/Millennium/Neru</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -127,7 +127,7 @@
 
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_BA_Neru</defName>
-		<label>Bullet of Twin Dragon</label>
+		<label>쌍룡의 탄환</label>
 		<graphicData>
 			<texPath>Projectile/Bullet_yellow</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -139,11 +139,11 @@
 		</projectile>
 	</ThingDef>
 	
-	<!--朱音-->
+	<!-- 아카네 -->
 	<ThingDef ParentName="BAW_BaseHumanMakeableGun">
 		<defName>BAW_Akane</defName>
-		<label>静音方案</label>
-		<description>朱音经常携带的手枪。\n\n它的名字与平时爱用的爆炸物形成了鲜明对比。</description>
+		<label>정음 방안</label>
+		<description>아카네가 자주 들고 다니는 권총。\n\n이름과 달리 평소에 애용하는 폭발물과는 대조적입니다。</description>
 		<graphicData>
 			<texPath>Weapon/Millennium/Akane</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -192,7 +192,7 @@
 
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_BA_Akane</defName>
-		<label>Bullet of Silent Solution</label>
+		<label>정음 방안의 탄환</label>
 		<graphicData>
 			<texPath>Projectile/Bullet_cyan</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -205,11 +205,11 @@
 		</projectile>
 	</ThingDef>
 	
-	<!--明日奈-->
+	<!-- 아스나 -->
 	<ThingDef ParentName="BAW_BaseHumanMakeableGun">
 		<defName>BAW_Asuna</defName>
-		<label>超惊喜派对</label>
-		<description>明日奈使用的突击步枪。\n\n为什么取这么个热闹又快乐的名字呢，明日奈好像也忘记了。</description>
+		<label>초경치 파티</label>
+		<description>아스나가 사용하는 돌격 소총。\n\n왜 이렇게 시끌벅적하고 즐거운 이름을 지었는지, 아스나도 잊어버렸습니다。</description>
 		<graphicData>
 			<texPath>Weapon/Millennium/Asuna</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -260,7 +260,7 @@
 	
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_BA_Asuna</defName>
-		<label>Bullet of Surprise Party</label>
+		<label>서프라이즈 파티의 탄환</label>
 		<graphicData>
 			<texPath>Projectile/Bullet_yellow</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -273,11 +273,11 @@
 		</projectile>
 	</ThingDef>
 	
-	<!--时-->
+	<!-- 토키 -->
 	<ThingDef ParentName="BAW_BaseHumanMakeableGun">
 		<defName>BAW_Toki</defName>
-		<label>秘密时间</label>
-		<description>时专用的突击步枪。\n\n拥有与外观相符的性能，将排除任务中出现的任何障碍。\n\n据说枪名不是自己取的，而是另有其人。</description>
+		<label>비밀 시간</label>
+		<description>토키 전용 돌격 소총。\n\n외관에 걸맞는 성능을 갖추고 있으며, 임무 중 발생하는 모든 장애물을 제거합니다。\n\n총 이름은 자신이 지은 것이 아니라고 합니다。</description>
 		<graphicData>
 			<texPath>Weapon/Millennium/Toki</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -328,7 +328,7 @@
 	
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_BA_Toki</defName>
-		<label>Bullet of Secret Time</label>
+		<label>비밀 시간의 탄환</label>
 		<graphicData>
 			<texPath>Projectile/Bullet_blue</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -341,11 +341,11 @@
 		</projectile>
 	</ThingDef>
 	
-	<!--花凛-->
+	<!-- 카린 -->
 	<ThingDef ParentName="BAW_BaseHumanMakeableGun">
     <defName>BAW_Karin</defName>
-    <label>鹰眼</label>
-    <description>花凛专用的反器材步枪。即使是空中飞行的目标，也能精准无比地击落。</description>
+    <label>매의 눈</label>
+    <description>카린 전용의 대물 저격총。심지어 공중 비행의 목표도 정확하게 격추할 수 있습니다。</description>
     <graphicData>
       <texPath>Weapon/Millennium/Karin</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -395,7 +395,7 @@
   </ThingDef>
   <ThingDef ParentName="BaseBullet">
     <defName>Bullet_BA_Karin</defName>
-    <label>Bullet of Hawkeye</label>
+    <label>매의 눈의 탄환</label>
     <projectile>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>55</damageAmountBase>
@@ -410,11 +410,11 @@
   </ThingDef>
 	
 	
-	<!--小绿-->
+	<!-- 미도리 -->
 	<ThingDef ParentName="BAW_BaseHumanMakeableGun">
     <defName>BAW_Midori</defName>
-    <label>清爽灵感</label>
-    <description>小绿使用的狙击步枪。\n\n挂着最重要的姐姐送的装饰，在困顿的时候拨弄拨弄它，灵感似乎就涌上来了。</description>
+    <label>청량 영감</label>
+    <description>미도리가 사용하는 저격 소총。\n\n가장 소중한 언니가 준 장식을 걸고, 힘든 순간에 만지작거리면 영감이 솟아납니다。</description>
     <graphicData>
       <texPath>Weapon/Millennium/Midori</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -465,7 +465,7 @@
 
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_BA_Midori</defName>
-		<label>Bullet for Fresh Inspiration</label>
+		<label>신선한 영감의 탄환</label>
 		<graphicData>
 			<texPath>Projectile/Bullet_cyan</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -478,11 +478,11 @@
 	</ThingDef>
 	
 	
-	<!--桃井-->
+	<!-- 모모이 -->
 	<ThingDef ParentName="BAW_BaseHumanMakeableGun">
 		<defName>BAW_Momoi</defName>
-		<label>独特点子</label>
-		<description>桃井使用的突击步枪。\n\n挂着最重要的妹妹送的装饰，在困顿的时候拨弄拨弄它，点子就闪闪发亮起来了。</description>
+		<label>독특한 아이디어</label>
+		<description>모모이가 사용하는 돌격 소총。\n\n가장 소중한 여동생이 준 장식을 걸고, 힘든 순간에 만지작거리면 아이디어가 번뜩입니다。</description>
 		<graphicData>
 			<texPath>Weapon/Millennium/Momoi</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -533,7 +533,7 @@
 	
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_BA_Momoi</defName>
-		<label>Bullet of Unique Idea</label>
+		<label>독특한 아이디어의 탄환</label>
 		<graphicData>
 			<texPath>Projectile/Bullet_Momoi</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -547,11 +547,11 @@
 	</ThingDef>
 	
 	
-	<!--柚子-->
+	<!-- 유즈 -->
 	<ThingDef ParentName="BAW_BaseHumanMakeableGun">
 		<defName>BAW_Yuzu</defName>
-		<label>喵冲</label>
-		<description>柚子随身携带的掷弹筒。\n\n它的侧面一直播放着可爱的猫猫影像。</description>
+		<label>냥 충</label>
+		<description>유즈가 항상 지니고 다니는 유탄 발사기。\n\n옆면에는 항상 귀여운 고양이 영상이 재생되고 있습니다。</description>
 		<graphicData>
 			<texPath>Weapon/Millennium/Yuzu</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -605,7 +605,7 @@
 
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_BA_Yuzu</defName>
-		<label>Nyan's Dash</label>
+		<label>냥의 돌진</label>
 		<graphicData>
 			<texPath>Projectile/Bullet_cyan</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -622,11 +622,11 @@
 		</projectile>
 	</ThingDef>
 	
-	<!--爱丽丝-->
+	<!-- 아리스 -->
 	<ThingDef ParentName="BAW_BaseHumanMakeableGun">
 		<defName>BAW_Aris</defName>
-		<label>光之剑：超新星</label>
-		<description>爱丽丝从工程部那里获得的巨大电磁炮。\n\n它的重量和功率输出，让普通学生仅仅是拿着走路都十分困难。</description>
+		<label>빛의 검: 초신성</label>
+		<description>아리스가 공학부에서 얻은 거대한 전자기포。\n\n그 무게와 출력으로 인해, 일반 학생들은 단순히 들고 걷는 것조차 어렵습니다。</description>
 		<graphicData>
 			<texPath>Weapon/Millennium/Aris</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -688,7 +688,7 @@
 
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_BA_Aris</defName>
-		<label>Hikari</label>
+		<label>히카리</label>
 		<graphicData>
 			<texPath>Projectile/Hikari</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -707,11 +707,11 @@
 		</projectile>
 	</ThingDef>
 
-	<!--诺亚-->
+	<!-- 노아 -->
 	<ThingDef ParentName="BAW_BaseHumanMakeableGun">
 		<defName>BAW_Noa</defName>
-		<label>书记的表决</label>
-		<description>诺亚使用的带有改装附件的手枪。\n\n拉开枪托就可以像冲锋枪一样连射。</description>
+		<label>서기의 표결</label>
+		<description>노아가 사용하는 개조 부착물 장착 권총。\n\n총열을 당기면 기관단총처럼 연사할 수 있습니다。</description>
 		<graphicData>
 			<texPath>Weapon/Millennium/Noa</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -762,7 +762,7 @@
 
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_BA_Noa</defName>
-		<label>Bullet of Secretary's vote</label>
+		<label>서기의 표결 탄환</label>
 		<graphicData>
 			<texPath>Projectile/Bullet_blue</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -775,11 +775,11 @@
 		</projectile>
 	</ThingDef>
 
-	<!--邮箱-->
+	<!-- 유우카 -->
 	<ThingDef ParentName="BAW_BaseHumanMakeableGun">
 		<defName>BAW_Yuuka</defName>
-		<label>逻辑与理性</label>
-		<description>优香使用的冲锋枪。\n\n在重要的时机、以及需要适当应对的时候，它会帮助优香做出合理的判断。</description>
+		<label>논리와 이성</label>
+		<description>유우카가 사용하는 기관단총。\n\n중요한 순간이나 적절한 대응이 필요한 상황에서 유우카가 합리적인 판단을 내릴 수 있도록 돕습니다。</description>
 		<graphicData>
 			<texPath>Weapon/Millennium/Yuuka</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -829,7 +829,7 @@
 	</ThingDef>
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_BA_Yuuka</defName>
-		<label>Bullet of Logic n Reason</label>
+		<label>논리와 이성의 탄환</label>
 		<graphicData>
 			<texPath>Projectile/Bullet_yellow</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -841,11 +841,11 @@
 		</projectile>
 	</ThingDef>
 	
-	<!--莉音-->
+	<!-- 리오 -->
 	<ThingDef ParentName="BAW_BaseHumanMakeableGun">
 		<defName>BAW_Rio</defName>
-		<label>最终手段</label>
-		<description>莉音所使用的左轮手枪。\n\n为了达成她的目标，必须要采取任何必要的措施。\n\n而对于孑然一身的莉音来说，暴力同样是备选的必要手段之一。</description>
+		<label>최후의 수단</label>
+		<description>리오가 사용하는 리볼버 권총。\n\n목표를 달성하기 위해 필요한 모든 수단을 동원해야 합니다。\n\n홀로 남겨진 리오에게 폭력도 필요한 수단 중 하나입니다。</description>
 		<graphicData>
 			<texPath>Weapon/Millennium/Rio</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -894,7 +894,7 @@
 
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_BA_Rio</defName>
-		<label>Bullet of Final Finesse</label>
+		<label>최후의 수단의 탄환</label>
 		<graphicData>
 			<texPath>Projectile/Bullet_red</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -906,10 +906,4 @@
 			<speed>60</speed>
 		</projectile>
 	</ThingDef>
-
-
-
-
-
-
 </Defs>
